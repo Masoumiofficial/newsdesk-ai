@@ -1,0 +1,46 @@
+{
+  "name": "newsdesk/newsdesk-ai",
+  "description": "An AI newsroom for WordPress that fact-checks and audits every draft, and never auto-publishes.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4",
+    "ext-simplexml": "*",
+    "ext-dom": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NewsDesk\\AI\\Newsroom\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NewsDesk\\AI\\Newsroom\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "ai",
+    "news",
+    "fact-checking",
+    "editorial",
+    "journalism"
+  ],
+  "homepage": "https://etehadwp.com/newsdesk-ai/",
+  "authors": [
+    {
+      "name": "EtehadWP",
+      "homepage": "https://etehadwp.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "docs": "https://etehadwp.com/newsdesk-ai/docs/",
+    "issues": "https://etehadwp.com/support/"
+  }
+}

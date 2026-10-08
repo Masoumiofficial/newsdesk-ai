@@ -1,0 +1,1566 @@
+# Persian translation for NewsDesk AI.
+# This catalogue is the plugin's original source copy: the interface was
+# authored in Persian and translated to English for the 1.0.0 release, so
+# every msgstr here is the hand-written original rather than a machine pass.
+msgid ""
+msgstr ""
+"Project-Id-Version: NewsDesk AI 1.0.1\n"
+"Report-Msgid-Bugs-To: https://etehadwp.com/support/\n"
+"POT-Creation-Date: 2026-10-07T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-10-07T00:00:00+00:00\n"
+"Last-Translator: NewsDesk AI\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: newsdesk-ai\n"
+
+msgid "%1$d items in total, %2$d in the last 24 hours"
+msgstr "%1$d خبر در کل، %2$d خبر در ۲۴ ساعت اخیر"
+
+msgid "%1$d of %2$d active"
+msgstr "%1$d فعال از %2$d"
+
+msgid "%1$d of %2$d claims are used in the body"
+msgstr "%1$d از %2$d ادعا در متن استفاده شده"
+
+msgid "%1$d stories, %2$d selected for generation"
+msgstr "%1$d استوری، %2$d انتخاب‌شده برای تولید"
+
+msgid "%d citations in the body point to evidence that does not exist in the database."
+msgstr "%d ارجاع در متن به شواهدی اشاره می‌کند که در پایگاه داده وجود ندارد."
+
+msgid "%d content versions generated — see the “Draft review” page."
+msgstr "%d نسخهٔ محتوا تولید شده — صفحهٔ «بازبینی پیش‌نویس‌ها» را ببینید."
+
+msgid "%d duplicates"
+msgstr "%d تکراری"
+
+msgid "%d log rows cleared."
+msgstr "%d سطر لاگ پاک شد."
+
+msgid "%d sources are defined but none are active or fetchable."
+msgstr "%d منبع تعریف شده ولی هیچ‌کدام فعال/قابل‌دریافت نیست."
+
+msgid "(Set ✅ — enter a new value to change it)"
+msgstr "(تنظیم شده ✅ — برای تغییر، مقدار جدید وارد کنید)"
+
+msgid "(not set)"
+msgstr "(تنظیم نشده)"
+
+msgid "A close-up of the relevant interface or product"
+msgstr "نمای نزدیک از رابط کاربری یا محصول مرتبط"
+
+msgid "A contextual shot of the real environment in use"
+msgstr "تصویر زمینه‌ای از محیط واقعی استفاده"
+
+msgid "A feed URL is required for this source type."
+msgstr "آدرس فید برای این نوع منبع الزامی است."
+
+msgid "A previous run's lock was never released; wait 15 minutes or deactivate and reactivate the plugin."
+msgstr "قفل اجرای قبلی آزاد نشده؛ ۱۵ دقیقه صبر کنید یا افزونه را غیرفعال/فعال کنید."
+
+msgid "A similar job is already active (the duplicate was skipped)."
+msgstr "کار مشابهی از قبل فعال است (تکراری اجرا نشد)."
+
+msgid "A similar job is already queued or running."
+msgstr "جاب مشابهی در صف یا در حال اجرا وجود دارد."
+
+msgid "AI"
+msgstr "هوش مصنوعی"
+
+msgid "AI (phase 3 — §18, §22, §23)"
+msgstr "هوش مصنوعی (فاز ۳ — §18، §22، §23)"
+
+msgid "AI API key"
+msgstr "کلید API هوش مصنوعی"
+
+msgid "AI fact-check"
+msgstr "راستی‌آزمایی AI"
+
+msgid "AI providers"
+msgstr "تأمین‌کننده‌های هوش مصنوعی"
+
+msgid "AI-assisted fact-checking"
+msgstr "راستی‌آزمایی با هوش مصنوعی"
+
+msgid "API keys (stored only in SecretStorage — §23)"
+msgstr "کلیدهای API (فقط در SecretStorage — §23)"
+
+msgid "API keys are never displayed on this page. Go to the Settings tab to change them."
+msgstr "کلیدهای API هرگز در این صفحه نمایش داده نمی‌شوند. برای تغییر آن‌ها به برگهٔ تنظیمات بروید."
+
+msgid "API keys are never written to the logs (§49)."
+msgstr "کلیدهای API هرگز در لاگ‌ها ذخیره نمی‌شوند (§49)."
+
+msgid "Access denied."
+msgstr "دسترسی غیرمجاز."
+
+msgid "Action Scheduler is not installed; jobs fall back to single-event WP-Cron, which is slower, less reliable and depends on site traffic."
+msgstr "Action Scheduler نصب نیست؛ جاب‌ها با WP-Cron single-event اجرا می‌شوند که کندتر و ناپایدارتر است و به بازدید سایت وابسته است."
+
+msgid "Actions"
+msgstr "اقدامات"
+
+msgid "Active"
+msgstr "فعال"
+
+msgid "Actual start"
+msgstr "شروع واقعی"
+
+msgid "Actually generate images"
+msgstr "تولید واقعی تصویر"
+
+msgid "Add at least two or three sources covering the same topic, or turn on quick-start mode."
+msgstr "حداقل ۲–۳ منبع هم‌موضوع اضافه کنید یا حالت راه‌اندازی سریع را فعال کنید."
+
+msgid "Add source"
+msgstr "افزودن منبع"
+
+msgid "All levels"
+msgstr "همه سطوح"
+
+msgid "All optional. Blank = automatic detection (JSON-LD → OpenGraph → <article>/<h1>). Fill these in only when automatic detection gets it wrong. Supported selectors: tag, .class, #id, [attr=val], descendant spaces and >."
+msgstr "همه اختیاری‌اند. خالی = تشخیص خودکار (JSON-LD → OpenGraph → <article>/<h1>). فقط وقتی تشخیص خودکار درست کار نکرد پر کنید. سلکتورهای پشتیبانی‌شده: tag، .class، #id، [attr=val]، فاصله و >."
+
+msgid "All sources"
+msgstr "همه منابع"
+
+msgid "All statuses"
+msgstr "همه وضعیت‌ها"
+
+msgid "All types"
+msgstr "همه انواع"
+
+msgid "An AI newsroom for your site — quality over quantity. Nothing is published without human approval."
+msgstr "هوش مصنوعی اخبار اکوسیستم وردپرس — کیفیت بر کمیت. هیچ چیزی بدون تأیید انسانی منتشر نمی‌شود."
+
+msgid "An image plan is still produced for every draft; only the call to the generation service is skipped."
+msgstr "طرح تصویر همچنان برای هر پیش‌نویس ساخته می‌شود؛ فقط فراخوانی سرویس تولید انجام نمی‌شود."
+
+msgid "Approve"
+msgstr "تأیید"
+
+msgid "Approve — ready for an editor to publish"
+msgstr "تأیید — آمادهٔ انتشار توسط سردبیر"
+
+msgid "Approved for publishing: %d · Reviewed: %d"
+msgstr "تأییدشده برای انتشار: %d · بازبینی‌شده: %d"
+
+msgid "Approved:"
+msgstr "تأییدشده:"
+
+msgid "Article URL pattern (regex)"
+msgstr "الگوی URL خبر (regex)"
+
+msgid "Article link selector"
+msgstr "سلکتور لینک خبر"
+
+msgid "Ask your host to enable these extensions."
+msgstr "از هاست بخواهید این افزونه‌ها را فعال کند."
+
+msgid "At least one valid time (HH:MM) is required."
+msgstr "حداقل یک زمان معتبر (HH:MM) لازم است."
+
+msgid "Author selector (article page)"
+msgstr "سلکتور نویسنده (صفحهٔ خبر)"
+
+msgid "Auto-publish"
+msgstr "انتشار خودکار"
+
+msgid "Availability"
+msgstr "دسترس‌پذیری"
+
+msgid "Awaiting review (§36)"
+msgstr "در انتظار بازبینی (§36)"
+
+msgid "Back to all news"
+msgstr "بازگشت به همهٔ اخبار"
+
+msgid "Back to the review queue"
+msgstr "بازگشت به صف بازبینی"
+
+msgid "Below this score the version is revised; once revisions run out → NEEDS_REVIEW (§36)."
+msgstr "زیر این نمره، نسخه بازبینی می‌شود؛ پس از حداکثر بازبینی‌ها → NEEDS_REVIEW (§36)."
+
+msgid "Below this threshold → the valid outcome NO_PUBLISHABLE_STORY_FOUND (§14)."
+msgstr "زیر این آستانه → نتیجه معتبر NO_PUBLISHABLE_STORY_FOUND (§14)."
+
+msgid "Body selector (article page)"
+msgstr "سلکتور متن (صفحهٔ خبر)"
+
+msgid "Budget and limits"
+msgstr "بودجه و محدودیت‌ها"
+
+msgid "Business"
+msgstr "کسب‌وکار"
+
+msgid "Busy — waiting for another run to finish"
+msgstr "درگیر — منتظر پایان اجرای دیگر"
+
+msgid "By design this phase is plan-only: for each draft the plugin proposes alt text, a caption, three visual concepts and stock search terms, and the final choice is the editor's. No image is generated or uploaded automatically."
+msgstr "طبق مشخصات، این مرحله «فقط طرح» است: افزونه برای هر پیش‌نویس، متن جایگزین، کپشن، سه ایدهٔ بصری و عبارت‌های جستجو پیشنهاد می‌دهد و انتخاب نهایی با سردبیر است. هیچ تصویری به‌صورت خودکار ساخته یا بارگذاری نمی‌شود."
+
+msgid "Cancel"
+msgstr "انصراف"
+
+msgid "Candidate"
+msgstr "کاندیدا"
+
+msgid "Changes only take effect when you press Save. API keys are never displayed on this page."
+msgstr "تغییرات فقط با «ذخیره» اعمال می‌شوند. کلیدهای API هرگز در این صفحه نمایش داده نمی‌شوند."
+
+msgid "Channels"
+msgstr "کانال‌ها"
+
+msgid "Checked before every network call (BUDGET_EXCEEDED — §22)."
+msgstr "قبل از هر فراخوانی شبکه بررسی می‌شود (BUDGET_EXCEEDED — §22)."
+
+msgid "Citation notes"
+msgstr "یادداشت‌های ارجاع"
+
+msgid "Citations"
+msgstr "تعداد ارجاع"
+
+msgid "Claim"
+msgstr "ادعا"
+
+msgid "Clear all levels"
+msgstr "پاک کردن همه سطوح"
+
+msgid "Clear logs"
+msgstr "پاک کردن لاگ‌ها"
+
+msgid "Clearing the logs cannot be undone. Continue?"
+msgstr "پاک کردن لاگ‌ها برگشت‌پذیر نیست. ادامه می‌دهید؟"
+
+msgid "Cluster"
+msgstr "خوشه"
+
+msgid "Collected news"
+msgstr "اخبار جمع‌آوری‌شده"
+
+msgid "Community"
+msgstr "انجمن"
+
+msgid "Component"
+msgstr "کامپوننت"
+
+msgid "Composite"
+msgstr "کامپوزیت"
+
+msgid "Conceptual view of %s"
+msgstr "نمای مفهومی از %s"
+
+msgid "Confidence"
+msgstr "اطمینان"
+
+msgid "Configured"
+msgstr "پیکربندی‌شده"
+
+msgid "Configured slots"
+msgstr "اسلات‌های پیکربندی‌شده"
+
+msgid "Connected to provider: "
+msgstr "اتصال به provider برقرار است: "
+
+msgid "Connected — %1$d items fetched in %2$d ms."
+msgstr "اتصال برقرار است — %1$d آیتم در %2$d میلی‌ثانیه دریافت شد."
+
+msgid "Connection test failed (%1$s): %2$s"
+msgstr "تست اتصال ناموفق بود (%1$s): %2$s"
+
+msgid "Content draft"
+msgstr "پیش‌نویس محتوا"
+
+msgid "Content generation and quality"
+msgstr "تولید محتوا و کیفیت"
+
+msgid "Content generation enabled"
+msgstr "تولید محتوا فعال"
+
+msgid "Content hash"
+msgstr "هش محتوا"
+
+msgid "Content quality gate (0–100)"
+msgstr "آستانه کیفیت محتوا (۰ تا ۱۰۰)"
+
+msgid "Content ready for review"
+msgstr "محتوای آمادهٔ بازبینی"
+
+msgid "Contradiction:"
+msgstr "تناقض:"
+
+msgid "Core release"
+msgstr "انتشار هسته"
+
+msgid "Correct"
+msgstr "تصحیح"
+
+msgid "Cost estimate currency"
+msgstr "واحد پول برآورد هزینه"
+
+msgid "Could not delete."
+msgstr "حذف ممکن نشد."
+
+msgid "Could not load the job."
+msgstr "بازیابی جاب ممکن نشد."
+
+msgid "Create"
+msgstr "ایجاد"
+
+msgid "Create a real cron job on your server or in cPanel: every 5 minutes run `wget -q -O /dev/null https://SITE/wp-cron.php?doing_wp_cron` — or use “Run now” for the time being."
+msgstr "در cPanel/سرور یک cron واقعی بسازید: هر ۵ دقیقه `wget -q -O /dev/null https://SITE/wp-cron.php?doing_wp_cron` — یا فعلاً از «اجرای فوری» استفاده کنید."
+
+msgid "Daily digest"
+msgstr "خلاصهٔ روزانه"
+
+msgid "Daily digest sent."
+msgstr "خلاصهٔ روزانه ارسال شد."
+
+msgid "Dashboard"
+msgstr "داشبورد"
+
+msgid "Date"
+msgstr "تاریخ"
+
+msgid "Date selector (article page)"
+msgstr "سلکتور تاریخ (صفحهٔ خبر)"
+
+msgid "Decision"
+msgstr "تصمیم"
+
+msgid "Default draft author (ID)"
+msgstr "نویسنده پیش‌فرض درفت (ID)"
+
+msgid "Default draft category (ID)"
+msgstr "دسته پیش‌فرض درفت (ID)"
+
+msgid "Delay (seconds)"
+msgstr "تأخیر (ثانیه)"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete all data on uninstall (default: keep)"
+msgstr "حذف کامل داده‌ها هنگام uninstall (پیش‌فرض: نگه‌داری)"
+
+msgid "Delete failed."
+msgstr "حذف ناموفق بود."
+
+msgid "Delete key"
+msgstr "حذف کلید"
+
+msgid "Delete the stored value"
+msgstr "حذف مقدار ذخیره‌شده"
+
+msgid "Delete this source and all of its news items?"
+msgstr "حذف منبع و همه آیتم‌های خبری آن؟"
+
+msgid "Deletion mode on uninstall"
+msgstr "حالت حذف هنگام Uninstall"
+
+msgid "Details"
+msgstr "جزئیات"
+
+msgid "Disabled"
+msgstr "غیرفعال"
+
+msgid "Disabled (default)"
+msgstr "غیرفعال (پیش‌فرض)"
+
+msgid "Disabled — always off"
+msgstr "غیرفعال — همیشه خاموش"
+
+msgid "Download size cap (bytes)"
+msgstr "سقف حجم دانلود (بایت)"
+
+msgid "Draft approved — publishing is still manual (§73)."
+msgstr "پیش‌نویس تأیید شد — انتشار همچنان دستی است (§73)."
+
+msgid "Draft rejected."
+msgstr "پیش‌نویس رد شد."
+
+msgid "Draft review"
+msgstr "بازبینی پیش‌نویس‌ها"
+
+msgid "Draft review → preview → approve → publish from the WordPress editor."
+msgstr "بازبینی پیش‌نویس‌ها → پیش‌نمایش → تأیید → در ویرایشگر وردپرس منتشر کنید."
+
+msgid "Duplicate"
+msgstr "تکراری"
+
+msgid "Duplicate of #%1$d (%2$s)"
+msgstr "تکراریِ #%1$d (%2$s)"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "Edit source"
+msgstr "ویرایش منبع"
+
+msgid "Edit the draft in WordPress"
+msgstr "ویرایش پیش‌نویس در وردپرس"
+
+msgid "Editorial category"
+msgstr "دسته editorial"
+
+msgid "Editorial selection"
+msgstr "انتخاب تحریریه"
+
+msgid "Editorial selection (phase 2 — SEO/AEO/GEO first)"
+msgstr "انتخاب تحریریه (فاز ۲ — اولویت SEO/AEO/GEO)"
+
+msgid "Email"
+msgstr "ایمیل"
+
+msgid "Email recipients (comma separated)"
+msgstr "گیرندگان ایمیل (با ویرگول)"
+
+msgid "Enable notifications"
+msgstr "فعال‌سازی اعلان‌ها"
+
+msgid "Environment variable (NEWSDESK_*)"
+msgstr "متغیر محیطی (NEWSDESK_*)"
+
+msgid "Error"
+msgstr "خطا"
+
+msgid "Event"
+msgstr "رویداد"
+
+msgid "Events"
+msgstr "رویدادها"
+
+msgid "Every 15 minutes (NewsDesk AI)"
+msgstr "هر ۱۵ دقیقه (NewsDesk AI)"
+
+msgid "Every generated article waits here for your decision. “Passed the gate” means a WordPress draft exists and only needs human approval; “below the gate” means the quality score fell short and no draft was created. Approving only marks the version as publishable — the final publish always happens in WordPress itself, and AUTO PUBLISH is always off (§73)."
+msgstr "هر مقاله‌ای که تولید شده اینجا منتظر تصمیم شماست: «عبور از گیت» یعنی پیش‌نویس وردپرس ساخته شده و فقط تأیید انسانی می‌خواهد؛ «زیر گیت» یعنی نمرهٔ کیفیت کافی نبوده و پیش‌نویس ساخته نشده. تأیید شما فقط «نسخه را قابل انتشار» می‌کند؛ انتشار نهایی همیشه با خود وردپرس است و AUTO PUBLISH همیشه خاموش است (§73)."
+
+msgid "Every phase event, in full detail"
+msgstr "رویدادهای هر مرحله با جزئیات کامل"
+
+msgid "Everything crawled, before it becomes a story"
+msgstr "هر چیزی که خزیده شده، پیش از تبدیل‌شدن به استوری"
+
+msgid "Everything is green."
+msgstr "همه‌چیز سبز است."
+
+msgid "Evidence claim"
+msgstr "ادعای شواهدی"
+
+msgid "Evidence map"
+msgstr "نقشهٔ شواهد"
+
+msgid "Evidence snippet"
+msgstr "شاهد (snippet)"
+
+msgid "Evidence:"
+msgstr "شواهد:"
+
+msgid "Example:"
+msgstr "نمونه:"
+
+msgid "Expired"
+msgstr "منقضی"
+
+msgid "Faces of real, identifiable people"
+msgstr "چهرهٔ افراد واقعی و قابل شناسایی"
+
+msgid "Failed"
+msgstr "ناموفق"
+
+msgid "Fallback"
+msgstr "جایگزین"
+
+msgid "Featured image for: %s"
+msgstr "تصویر شاخص برای: %s"
+
+msgid "Feed URL"
+msgstr "آدرس فید"
+
+msgid "Feeds and news sites with trust scores"
+msgstr "فیدها و سایت‌های خبری با امتیاز اعتماد"
+
+msgid "Fetch feed"
+msgstr "دریافت فید"
+
+msgid "Fetch interval (minutes)"
+msgstr "فاصله دریافت (دقیقه)"
+
+msgid "Filter"
+msgstr "فیلتر"
+
+msgid "Find the first blocker and run the pipeline now"
+msgstr "تشخیص اولین مانع و اجرای فوری پایپ‌لاین"
+
+msgid "Finished"
+msgstr "پایان"
+
+msgid "First blocker:"
+msgstr "اولین مانع:"
+
+msgid "Fix"
+msgstr "راه‌حل"
+
+msgid "Fix the first red or amber item above, then press “Run now”."
+msgstr "اولین مورد قرمز/زرد بالا را برطرف کنید و «اجرای فوری» بزنید."
+
+msgid "Focus keyword"
+msgstr "کلیدواژهٔ کانونی"
+
+msgid "Follow links outside the source domain"
+msgstr "دنبال‌کردن لینک‌های خارج از دامنهٔ منبع"
+
+msgid "For automatic runs: install Action Scheduler and set up a real system cron for wp-cron.php."
+msgstr "برای اجرای خودکار: افزونهٔ Action Scheduler را نصب و یک cron سیستمی برای wp-cron.php بسازید."
+
+msgid "For web sources: the URL of a listing page (the home page or a section)."
+msgstr "برای نوع web: آدرس صفحهٔ فهرست اخبار (مثلاً صفحهٔ اصلی یا یک دسته)."
+
+msgid "Format HH:MM — scheduling follows the site time zone."
+msgstr "فرمت HH:MM — زمان‌بندی بر اساس منطقه زمانی سایت است."
+
+msgid "Format: width×height (for example 1024x1024)."
+msgstr "فرمت: عرض×ارتفاع (مثلاً 1024x1024)."
+
+msgid "Free"
+msgstr "آزاد"
+
+msgid "Fresh"
+msgstr "تازه"
+
+msgid "GapGPT model"
+msgstr "مدل GapGPT"
+
+msgid "GapGPT via alternate CDN"
+msgstr "GapGPT از CDN جایگزین"
+
+msgid "Gate feedback is sent back to the model; beyond this many attempts, no draft is created (§31)."
+msgstr "بازخورد گیت به مدل داده می‌شود؛ پس از این تعداد، پیش‌نویسی ساخته نمی‌شود (§31)."
+
+msgid "Gemini model"
+msgstr "مدل Gemini"
+
+msgid "Generated articles awaiting your decision"
+msgstr "مقاله‌های تولیدشده در انتظار تصمیم شما"
+
+msgid "Generation details"
+msgstr "مشخصات تولید"
+
+msgid "Global lock:"
+msgstr "قفل سراسری:"
+
+msgid "Guide"
+msgstr "آموزش"
+
+msgid "Gutenberg"
+msgstr "گوتنبرگ"
+
+msgid "Health"
+msgstr "سلامت"
+
+msgid "Hosting"
+msgstr "میزبانی"
+
+msgid "ID"
+msgstr "شناسه"
+
+msgid "If news has been collected but there are no stories, the full pipeline — not just discovery — has not run yet."
+msgstr "اگر اخبار جمع شده ولی استوری نیست، پایپ‌لاین کامل (نه فقط Discovery) هنوز اجرا نشده."
+
+msgid "If nothing is found in the stage 1 window, the search widens to this range. If there is still nothing, the outcome is NO NEWS and no content is created."
+msgstr "اگر در پنجره مرحله ۱ هیچ خبری نبود، جست‌وجو به این بازه گسترش می‌یابد. اگر باز هم چیزی نبود، نتیجه «خبری نیست» است و هیچ محتوایی ساخته نمی‌شود."
+
+msgid "Ignored"
+msgstr "نادیده‌گرفته"
+
+msgid "Image generation enabled"
+msgstr "تولید تصویر فعال"
+
+msgid "Image model"
+msgstr "مدل تصویر"
+
+msgid "Image phase: plan only"
+msgstr "مرحلهٔ تصویر: فقط طرح پیشنهادی"
+
+msgid "Image size"
+msgstr "ابعاد تصویر"
+
+msgid "Images"
+msgstr "تصاویر"
+
+msgid "Images ready (failed: "
+msgstr "تصویر آماده (ناموفق: "
+
+msgid "Images without a clear licence or source"
+msgstr "تصویر بدون مجوز یا با منبع نامشخص"
+
+msgid "In body"
+msgstr "در متن"
+
+msgid "In the review queue (draft / needs review): %d"
+msgstr "در صف بازبینی (پیش‌نویس/نیاز به بازبینی): %d"
+
+msgid "Install the free Action Scheduler plugin (or WooCommerce)."
+msgstr "افزونهٔ رایگان «Action Scheduler» (یا WooCommerce) را نصب کنید."
+
+msgid "Internal link suggestions and source citations"
+msgstr "پیشنهاد لینک داخلی و ارجاع به منابع"
+
+msgid "Internal links are suggestions only and are never inserted into the body automatically. An external citation is recorded for every sourced claim so its origin stays traceable."
+msgstr "لینک داخلی فقط «پیشنهاد» است و به‌صورت خودکار در متن درج نمی‌شود. ارجاع بیرونی برای هر ادعای مستند ثبت می‌شود تا منبع قابل ردیابی بماند."
+
+msgid "Invalid or unsupported CSS selector in “%s”."
+msgstr "سلکتور CSS نامعتبر یا پشتیبانی‌نشده در «%s»."
+
+msgid "Invalid source type."
+msgstr "نوع منبع نامعتبر است."
+
+msgid "Invalid source."
+msgstr "منبع نامعتبر است."
+
+msgid "Job"
+msgstr "جاب"
+
+msgid "Job #%1$d (%2$s) completed cleanly but returned NO_PUBLISHABLE_STORY_FOUND: no story cleared the selection thresholds."
+msgstr "جاب #%1$d (%2$s) سالم تمام شد ولی نتیجه‌اش NO_PUBLISHABLE_STORY_FOUND بود: هیچ استوری‌ای از آستانه‌های انتخاب رد نشد."
+
+msgid "Job #%1$d (%2$s) finished as needs_review but saved no content version — the model's output was rejected on every attempt during generation (SCHEMA_FAIL / BUSINESS_RULE_FAIL), so there is nothing to review."
+msgstr "جاب #%1$d (%2$s) با وضعیت needs_review تمام شد ولی هیچ نسخهٔ محتوایی ذخیره نشده — یعنی خروجی مدل در مرحلهٔ تولید مقاله هر بار رد شد (SCHEMA_FAIL / BUSINESS_RULE_FAIL) و چیزی برای بازبینی وجود ندارد."
+
+msgid "Job #%1$d (%2$s): stories were selected and researched, but none passed fact-checking (contradicted or unverified) → no content was generated."
+msgstr "جاب #%1$d (%2$s): استوری‌ها انتخاب و تحقیق شدند ولی هیچ‌کدام از راستی‌آزمایی عبور نکرد (وضعیت contradictions/unverified) → تولید محتوا انجام نشد."
+
+msgid "Job #%1$d failed at phase %2$s: %3$s — %4$s"
+msgstr "جاب #%1$d شکست خورد در مرحلهٔ %2$s: %3$s — %4$s"
+
+msgid "Job #%1$d from %2$s has been queued since then and never started."
+msgstr "جاب #%1$d از %2$s در صف مانده و هرگز شروع نشده."
+
+msgid "Job #%1$d has been stuck at phase %2$s for over an hour — PHP most likely timed out mid-run."
+msgstr "جاب #%1$d بیش از یک ساعت در مرحلهٔ %2$s گیر کرده — احتمالاً PHP وسط کار timeout شده."
+
+msgid "Job #%1$d: %2$d drafts ready for review and %3$d stories below the quality gate — publishing requires human approval (§73). Review page: %4$s"
+msgstr "جاب #%1$d: %2$d پیش‌نویس آمادهٔ بازبینی و %3$d داستان زیر آستانهٔ کیفیت — انتشار فقط با تأیید انسانی (§73). صفحهٔ بازبینی: %4$s"
+
+msgid "Job / correlation"
+msgstr "کار/همبستگی"
+
+msgid "Jobs: %d queued / %d running / %d complete / %d failed / %d needing review"
+msgstr "جاب‌ها: در صف %d / در حال اجرا %d / کامل %d / شکست‌خورده %d / نیاز به بازبینی %d"
+
+msgid "Key storage"
+msgstr "ذخیره‌سازی کلیدها"
+
+msgid "Keys are stored encrypted in the database, using a key derived from AUTH_KEY."
+msgstr "کلیدها در پایگاه داده به‌صورت رمزنگاری‌شده (کلید مشتق از AUTH_KEY) ذخیره می‌شوند."
+
+msgid "Landscape frame, clean low-noise background, focus on detail."
+msgstr "قاب افقی، پس‌زمینهٔ ساده و کم‌نویز، تمرکز روی جزئیات."
+
+msgid "Language"
+msgstr "زبان"
+
+msgid "Language of generated articles"
+msgstr "زبان مقاله‌های تولیدی"
+
+msgid "Last run"
+msgstr "آخرین اجرا"
+
+msgid "Last success"
+msgstr "آخرین موفق"
+
+msgid "Layers 15–16: internal link suggestions plus external citations from verified sources."
+msgstr "لایه ۱۵–۱۶: پیشنهاد لینک داخلی + استناد خارجی از منابع تأییدشده."
+
+msgid "Level"
+msgstr "سطح"
+
+msgid "Level %s only"
+msgstr "فقط سطح %s"
+
+msgid "Linking"
+msgstr "لینک‌سازی"
+
+msgid "Linking (internal / external)"
+msgstr "لینک‌سازی (داخلی/خارجی)"
+
+msgid "List item selector"
+msgstr "سلکتور آیتم فهرست"
+
+msgid "Log level"
+msgstr "سطح لاگ"
+
+msgid "Logos and trademarks"
+msgstr "لوگو و نشان تجاری"
+
+msgid "Logs"
+msgstr "لاگ‌ها"
+
+msgid "Logs for job #%d"
+msgstr "لاگ‌های جاب #%d"
+
+msgid "Look for the STORY_NOT_ELIGIBLE event in the logs. It usually means your sources reported the same news in different words; add more sources in the same language and subject area."
+msgstr "در لاگ‌ها رویداد STORY_NOT_ELIGIBLE را ببینید. معمولاً یعنی منابع یک خبر را با عبارات متفاوت گزارش کرده‌اند؛ منابع هم‌زبان و هم‌موضوع بیشتری اضافه کنید. (نسخهٔ ۱.۳.۱ قواعد راستی‌آزمایی را واقع‌بینانه‌تر کرده است.)"
+
+msgid "Low trust cannot be selected even with excellent SEO."
+msgstr "اعتماد پایین حتی با SEO عالی قابل انتخاب نیست."
+
+msgid "Maximum AI revisions"
+msgstr "حداکثر بازبینی AI"
+
+msgid "Maximum items per fetch"
+msgstr "حداکثر خبر در هر دریافت"
+
+msgid "Maximum items per source"
+msgstr "حداکثر آیتم به ازای هر منبع"
+
+msgid "Maximum output tokens"
+msgstr "حداکثر توکن خروجی"
+
+msgid "Maximum response size (KB)"
+msgstr "حداکثر حجم پاسخ (KB)"
+
+msgid "Maximum stories per window"
+msgstr "حداکثر استوری در هر پنجره"
+
+msgid "Maximum tokens per request"
+msgstr "حداکثر توکن در هر درخواست"
+
+msgid "Message"
+msgstr "پیام"
+
+msgid "Meta description:"
+msgstr "توضیح متا:"
+
+msgid "Minimum source trust (0–100)"
+msgstr "حداقل اعتماد منبع (۰–۱۰۰)"
+
+msgid "Minimum width"
+msgstr "حداقل عرض"
+
+msgid "Model: %1$s — size: %2$s. A generation failure never blocks the draft."
+msgstr "مدل: %1$s — اندازه: %2$s. شکست تولید هرگز مانع ساخت پیش‌نویس نمی‌شود."
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Natural light, no identifiable faces, shallow depth of field."
+msgstr "نور طبیعی، بدون چهرهٔ قابل شناسایی، عمق میدان کم."
+
+msgid "New content is ready for review"
+msgstr "محتوای جدید آمادهٔ بازبینی است"
+
+msgid "News"
+msgstr "خبر"
+
+msgid "News clusters and SEO/AEO/GEO scores"
+msgstr "خوشه‌های خبری و امتیاز SEO/AEO/GEO"
+
+msgid "News images"
+msgstr "تصاویر خبری"
+
+msgid "News inbox"
+msgstr "صندوق ورودی اخبار"
+
+msgid "News item"
+msgstr "آیتم خبری"
+
+msgid "News items in the last 24 hours: %d"
+msgstr "آیتم‌های خبری ۲۴ ساعت اخیر: %d"
+
+msgid "News sources"
+msgstr "منابع خبری"
+
+msgid "News type"
+msgstr "ماهیت خبر"
+
+msgid "NewsDesk AI"
+msgstr "NewsDesk AI"
+
+msgid "NewsDesk AI requires PHP %s or newer."
+msgstr "NewsDesk AI Newsroom نیازمند PHP %s یا بالاتر است."
+
+msgid "NewsDesk AI settings"
+msgstr "تنظیمات NewsDesk AI"
+
+msgid "NewsDesk AI: the database update failed."
+msgstr "NewsDesk AI Newsroom: بروزرسانی پایگاه داده ناموفق بود."
+
+msgid "Newsroom daily digest"
+msgstr "خلاصهٔ روزانهٔ اتاق خبر"
+
+msgid "Next run"
+msgstr "اجرای بعدی"
+
+msgid "Next run:"
+msgstr "اجرای بعدی:"
+
+msgid "Next tick: %1$s · Next pipeline slot: %2$s%3$s"
+msgstr "تیک بعدی: %1$s · اسلات بعدی پایپ‌لاین: %2$s%3$s"
+
+msgid "No API key entered."
+msgstr "کلید API وارد نشده."
+
+msgid "No content version has been generated yet."
+msgstr "هنوز هیچ نسخهٔ محتوایی تولید نشده."
+
+msgid "No evidence citation"
+msgstr "بدون ارجاع به شواهد"
+
+msgid "No evidence has been recorded for this story."
+msgstr "برای این استوری شواهدی ثبت نشده است."
+
+msgid "No fetch has happened yet."
+msgstr "هنوز هیچ دریافتی انجام نشده."
+
+msgid "No items found."
+msgstr "آیتمی یافت نشد."
+
+msgid "No job has been created yet — the pipeline has never run."
+msgstr "هنوز هیچ جابی ساخته نشده — پایپ‌لاین حتی یک بار هم اجرا نشده است."
+
+msgid "No job has run yet"
+msgstr "هنوز کاری اجرا نشده است"
+
+msgid "No log entries found"
+msgstr "لاگی یافت نشد"
+
+msgid "No news has been fetched from any source yet."
+msgstr "هنوز هیچ خبری از منابع دریافت نشده است."
+
+msgid "No provider has a key. Without one, nothing is generated — discovery still works, but the pipeline stops at RESEARCHING."
+msgstr "هیچ provider ای کلید ندارد. بدون کلید، هیچ محتوایی تولید نمی‌شود (Discovery کار می‌کند ولی پایپ‌لاین در مرحلهٔ RESEARCHING متوقف می‌شود)."
+
+msgid "No provider is configured. Until a valid key is saved, the content generation phase will not run and no draft will be created."
+msgstr "هیچ ارائه‌دهنده‌ای پیکربندی نشده است. تا زمانی که کلید معتبری ثبت نشود، مرحلهٔ تولید محتوا اجرا نمی‌شود و هیچ پیش‌نویسی ساخته نخواهد شد."
+
+msgid "No provider is registered."
+msgstr "ارائه‌دهنده‌ای ثبت نشده است."
+
+msgid "No run has been recorded yet"
+msgstr "هنوز اجرایی ثبت نشده است"
+
+msgid "No sources have been defined."
+msgstr "هیچ منبعی تعریف نشده است."
+
+msgid "No sources registered"
+msgstr "منبعی ثبت نشده است"
+
+msgid "No stories found"
+msgstr "استوری‌ای یافت نشد"
+
+msgid "No stories have been clustered yet."
+msgstr "هنوز هیچ استوری‌ای خوشه‌بندی نشده."
+
+msgid "No stories have been recorded yet."
+msgstr "هنوز استوری‌ای ثبت نشده است."
+
+msgid "Normalized"
+msgstr "نرمال‌سازی‌شده"
+
+msgid "Not configured"
+msgstr "پیکربندی‌نشده"
+
+msgid "Nothing is awaiting review"
+msgstr "موردی در انتظار بازبینی نیست"
+
+msgid "Notifications and daily digest"
+msgstr "اعلان‌ها و خلاصهٔ روزانه"
+
+msgid "Notifications and daily digest (phase 8)"
+msgstr "اعلان‌ها و خلاصهٔ روزانه (فاز ۸)"
+
+msgid "Number of visual concepts"
+msgstr "تعداد ایدهٔ بصری"
+
+msgid "Off = no images; an image service failure never fails the article or the job (§66)."
+msgstr "خاموش = بدون تصویر؛ خطای سرویس تصویر هرگز باعث شکست مقاله/جاب نمی‌شود (§66)."
+
+msgid "Off = research, evidence and fact-checking only (no-article mode)."
+msgstr "خاموش = فقط تحقیق/شواهد/راستی‌آزمایی (حالت بدون مقاله)."
+
+msgid "On the Sources page press “Active” and make sure the feed URL is filled in."
+msgstr "در صفحهٔ منابع دکمهٔ «فعال» را بزنید و مطمئن شوید آدرس فید پر است."
+
+msgid "On — the verdict is recorded only; the rules still make the final call."
+msgstr "فعال — نتیجه فقط ثبت می‌شود؛ تصمیم نهایی با قواعد است."
+
+msgid "Once the pipeline has run, generated articles appear here."
+msgstr "بعد از اجرای پایپ‌لاین، مقاله‌های تولیدشده اینجا ظاهر می‌شوند."
+
+msgid "One story = one editorial unit gathering several sources. It never becomes more than one article (§5). Selection is an editorial decision; the output is not an article yet."
+msgstr "یک استوری = یک واحد تحریریه که چند منبع را جمع می‌کند. هرگز به چند مقاله تبدیل نمی‌شود (§5). انتخاب، تصمیم تحریریه است؛ خروجی هنوز مقاله نیست."
+
+msgid "Only news from this window is considered first. Recommended: 24 hours."
+msgstr "ابتدا فقط خبرهای این بازه بررسی می‌شوند. پیشنهاد: ۲۴ ساعت."
+
+msgid "Only one source is active. Story scoring weights multi-source corroboration heavily, so a single source rarely reaches the selection threshold."
+msgstr "فقط ۱ منبع فعال است. امتیازدهی استوری به «تأیید از چند منبع» وزن زیادی می‌دهد؛ با یک منبع رسیدن به آستانهٔ انتخاب سخت است."
+
+msgid "Open the SCHEMA_RETRY / SCHEMA_FAIL / STORY_NO_CONTENT events in the logs; the Details column names the exact field that failed. Usually the model is too weak or does not support JSON output — pick a stronger one, such as gpt-4o, claude-sonnet or gemini-1.5-pro."
+msgstr "در لاگ‌ها رویدادهای SCHEMA_RETRY / SCHEMA_FAIL / STORY_NO_CONTENT را باز کنید؛ ستون «جزئیات» دقیقاً می‌گوید کدام فیلد مشکل داشته. معمولاً مدل ضعیف یا بدون پشتیبانی JSON است — یک مدل قوی‌تر (مثلاً gpt-4o / claude-sonnet / gemini-1.5-pro) انتخاب کنید. (نسخهٔ ۱.۳.۲ اسکیما را به مدل نشان می‌دهد، خروجی را ترمیم می‌کند و یک بار با ذکر خطاها دوباره تلاش می‌کند.)"
+
+msgid "Open the draft in the WordPress editor ↗"
+msgstr "باز کردن پیش‌نویس در ویرایشگر وردپرس ↗"
+
+msgid "Open the feed URLs in a browser. If they load there but fail here, your host has probably blocked outbound HTTP, or the feed resolves to a private IP."
+msgstr "آدرس فیدها را در مرورگر باز کنید؛ اگر باز می‌شوند ولی اینجا خطا می‌دهند، احتمالاً هاست دسترسی خروجی (outbound HTTP) را بسته یا فید به IP خصوصی resolve می‌شود."
+
+msgid "OpenAI model"
+msgstr "مدل OpenAI"
+
+msgid "Order"
+msgstr "ترتیب"
+
+msgid "Other"
+msgstr "سایر"
+
+msgid "Other versions"
+msgstr "نسخه‌های دیگر"
+
+msgid "Output (drafts)"
+msgstr "خروجی (پیش‌نویس‌ها)"
+
+msgid "PHP environment"
+msgstr "محیط PHP"
+
+msgid "PHP execution limit"
+msgstr "مهلت اجرای PHP"
+
+msgid "PHP extensions"
+msgstr "افزونه‌های PHP"
+
+msgid "Paused"
+msgstr "متوقف"
+
+msgid "Performance"
+msgstr "کارایی"
+
+msgid "Persian — English sources are rewritten natively, not translated"
+msgstr "فارسی (پیش‌فرض) — منابع انگلیسی ترجمه و بازنویسی می‌شوند"
+
+msgid "Phase 4 — content generation and quality (§36)"
+msgstr "فاز ۴ — تولید محتوا و کیفیت (§36)"
+
+msgid "Phase 5 — news images (§66)"
+msgstr "فاز ۵ — تصاویر خبری (§66)"
+
+msgid "Plugin sections"
+msgstr "بخش‌های افزونه"
+
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+msgid "Post scan pool size"
+msgstr "اندازهٔ استخر پویش نوشته‌ها"
+
+msgid "Press the “Run now” button further down this page."
+msgstr "دکمهٔ «اجرای فوری» پایین همین صفحه را بزنید."
+
+msgid "Press the “Run now” button."
+msgstr "دکمهٔ «اجرای فوری» را بزنید."
+
+msgid "Press “Save settings” once to re-register the tick, or deactivate and reactivate the plugin."
+msgstr "یک بار «ذخیره تنظیمات» را بزنید (تیک دوباره ثبت می‌شود) یا افزونه را غیرفعال/فعال کنید."
+
+msgid "Preview and review"
+msgstr "پیش‌نمایش و بازبینی"
+
+msgid "Preview version"
+msgstr "پیش‌نمایش نسخه"
+
+msgid "Primary"
+msgstr "اصلی"
+
+msgid "Priority (1–100)"
+msgstr "اولویت (۱–۱۰۰)"
+
+msgid "Prompt version"
+msgstr "نسخهٔ پرامپت"
+
+msgid "Provider / model"
+msgstr "Provider / مدل"
+
+msgid "Provider chain and budget usage"
+msgstr "زنجیرهٔ ارائه‌دهنده و بودجهٔ مصرف"
+
+msgid "Provider order (fallback priority)"
+msgstr "ترتیب Providerها (اولویت fallback)"
+
+msgid "Provider rate limit; try again in a few minutes."
+msgstr "محدودیت نرخ provider؛ چند دقیقه بعد تلاش مجدد."
+
+msgid "Provider test failed: "
+msgstr "تست provider ناموفق: "
+
+msgid "Providers ready: %s (press “Test connection” for a real check)"
+msgstr "Providerهای آماده: %s (برای تست واقعی دکمهٔ «تست اتصال» را بزنید)"
+
+msgid "Publishing is always manual (§73). Notifications only inform you and never block a job. Tokens and secret URLs live in SecretStorage (§23) and never reach HTML or the logs."
+msgstr "انتشار همیشه دستی است (§73). اعلان‌ها فقط خبر می‌دهند و هرگز مانع اجرای جاب نمی‌شوند. توکن‌ها/آدرس‌های محرمانه در SecretStorage نگهداری می‌شوند (§23) و به HTML/لاگ راه نمی‌یابند."
+
+msgid "Quality gate"
+msgstr "گیت کیفیت"
+
+msgid "Quality over quantity · nothing is published without human approval"
+msgstr "کیفیت بر کمیت · هیچ چیزی بدون تأیید انسانی منتشر نمی‌شود"
+
+msgid "Quality score"
+msgstr "نمره کیفیت"
+
+msgid "Quality score:"
+msgstr "نمرهٔ کیفیت:"
+
+msgid "Quality threshold (composite, 0–100)"
+msgstr "آستانه کیفیت (کامپوزیت، ۰–۱۰۰)"
+
+msgid "Queue"
+msgstr "صف اجرا"
+
+msgid "Queued"
+msgstr "در صف"
+
+msgid "Quick links"
+msgstr "دسترسی سریع"
+
+msgid "Quick-start mode"
+msgstr "حالت راه‌اندازی سریع"
+
+msgid "Quick-start mode is on: "
+msgstr "حالت راه‌اندازی سریع فعال است: "
+
+msgid "Raise max_execution_time, then press “Retry” on the dashboard."
+msgstr "max_execution_time را بالا ببرید؛ در داشبورد «تلاش مجدد» بزنید."
+
+msgid "Reason for rejection (optional)"
+msgstr "دلیل رد (اختیاری)"
+
+msgid "Recent jobs"
+msgstr "کارهای اخیر"
+
+msgid "Refresh"
+msgstr "بازخوانی"
+
+msgid "Reject"
+msgstr "رد"
+
+msgid "Rejected"
+msgstr "ردشده"
+
+msgid "Request timeout (seconds)"
+msgstr "مهلت درخواست (ثانیه)"
+
+msgid "Required PHP extensions are missing: %s"
+msgstr "افزونه‌های لازم نصب نیستند: %s"
+
+msgid "Response size limit when downloading images (§52)."
+msgstr "محدودیت اندازه پاسخ در دانلود تصویر (§52)."
+
+msgid "Response timeout (seconds)"
+msgstr "مهلت پاسخ (ثانیه)"
+
+msgid "Retry"
+msgstr "بازاجرا"
+
+msgid "Retry failed."
+msgstr "بازاجرا ناموفق بود."
+
+msgid "Retry this job? (a new job will be created)"
+msgstr "بازاجرای این کار؟ (کار جدیدی ساخته می‌شود)"
+
+msgid "Review"
+msgstr "بررسی"
+
+msgid "Review or disable the failing sources."
+msgstr "منابع خطادار را بررسی یا غیرفعال کنید."
+
+msgid "Review page: %s"
+msgstr "صفحهٔ بازبینی: %s"
+
+msgid "Review queue"
+msgstr "صف بازبینی"
+
+msgid "Role"
+msgstr "نقش"
+
+msgid "Run discovery"
+msgstr "اجرای کشف (Discovery)"
+
+msgid "Run history — scheduled, actual start, finish and delay (§42)"
+msgstr "تاریخچه اجراها — زمان برنامه‌ریزی/شروع واقعی/پایان/تأخیر (§42)"
+
+msgid "Run it through Action Scheduler and WP-CLI cron, or raise max_execution_time to 300."
+msgstr "با Action Scheduler و WP-CLI cron اجرا کنید، یا max_execution_time را به ۳۰۰ برسانید."
+
+msgid "Run the full pipeline (background queue)"
+msgstr "اجرای کامل Pipeline (صف پشت‌زمینه)"
+
+msgid "Running the full pipeline is what builds the clusters."
+msgstr "با اجرای کامل Pipeline، خوشه‌ها ساخته می‌شوند."
+
+msgid "Running… (allow up to 5 minutes)"
+msgstr "در حال اجرا… (تا ۵ دقیقه صبر کنید)"
+
+msgid "SEO"
+msgstr "سئو"
+
+msgid "Same language as each story's source"
+msgstr "همان زبان منبع هر استوری"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Save settings"
+msgstr "ذخیره تنظیمات"
+
+msgid "Saving the source failed (duplicate key?). Please try again."
+msgstr "ذخیره منبع ناموفق بود (کلید تکراری؟)، لطفاً دوباره تلاش کنید."
+
+msgid "Schedule"
+msgstr "زمان‌بندی"
+
+msgid "Scheduled time"
+msgstr "زمان برنامه‌ریزی‌شده"
+
+msgid "Scheduler (WP-Cron)"
+msgstr "زمان‌بند (WP-Cron)"
+
+msgid "Scheduling (§42)"
+msgstr "زمان‌بندی (§42)"
+
+msgid "Scheduling, editorial selection, AI, content quality, images and notifications"
+msgstr "زمان‌بندی، انتخاب تحریریه، هوش مصنوعی، کیفیت محتوا، تصاویر و اعلان‌ها"
+
+msgid "Score"
+msgstr "نمره"
+
+msgid "Search by name…"
+msgstr "جستجو در نام…"
+
+msgid "Search by title…"
+msgstr "جستجو در عنوان…"
+
+msgid "Secret keys are not allowed in source settings."
+msgstr "کلیدهای حساس در تنظیمات منبع مجاز نیستند."
+
+msgid "Security"
+msgstr "امنیت"
+
+msgid "See the logs filtered by job_id for details."
+msgstr "جزئیات را در لاگ‌ها با فیلتر job_id ببینید."
+
+msgid "Selected"
+msgstr "انتخاب‌شده"
+
+msgid "Selection: score ≥%1$d and trust ≥%2$d · at most %3$d stories per run · content quality gate ≥%4$d"
+msgstr "انتخاب: امتیاز ≥%1$d و اعتماد ≥%2$d · حداکثر %3$d استوری/اجرا · گیت کیفیت محتوا ≥%4$d"
+
+msgid "Send the daily digest now"
+msgstr "ارسال خلاصهٔ روزانه هم‌اکنون"
+
+msgid "Set — enter a new value to change it"
+msgstr "تنظیم شده — برای تغییر، مقدار جدید وارد کنید"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+msgid "Settings → API keys → enter and save a GapGPT or OpenAI key; it should then read “Set ✅”."
+msgstr "تنظیمات → کلیدهای API → کلید GapGPT یا OpenAI را وارد و ذخیره کنید؛ باید «تنظیم شده ✅» نمایش داده شود."
+
+msgid "Settings → enter an API key (GapGPT or OpenAI) → make “Test AI connection” go green."
+msgstr "تنظیمات → کلید API (GapGPT یا OpenAI) را وارد کنید → «تست اتصال AI» سبز شود."
+
+msgid "Settings → turn on “Quick-start mode”."
+msgstr "تنظیمات → «حالت راه‌اندازی سریع» را روشن کنید."
+
+msgid "Showing the duplicate cluster for item #%d."
+msgstr "نمایش خوشهٔ تکراری‌های آیتم #%d."
+
+msgid "Site local time:"
+msgstr "زمان محلی سایت:"
+
+msgid "Site time zone"
+msgstr "منطقه زمانی سایت"
+
+msgid "Slack"
+msgstr "اسلک (Slack)"
+
+msgid "Slack webhook URL"
+msgstr "آدرس وب‌هوک اسلک"
+
+msgid "Slot"
+msgstr "اسلات"
+
+msgid "Slot times"
+msgstr "زمان‌های اسلات"
+
+msgid "Slots, next run and run history"
+msgstr "اسلات‌ها، اجرای بعدی و تاریخچهٔ اجراها"
+
+msgid "Some values were invalid; please check them again."
+msgstr "برخی مقادیر نامعتبر بودند؛ دوباره بررسی کنید."
+
+msgid "Source"
+msgstr "منبع"
+
+msgid "Source added."
+msgstr "منبع افزوده شد."
+
+msgid "Source citations in recent stories"
+msgstr "ارجاع منابع در استوری‌های اخیر"
+
+msgid "Source created successfully."
+msgstr "منبع با موفقیت ایجاد شد."
+
+msgid "Source deleted."
+msgstr "منبع حذف شد."
+
+msgid "Source name *"
+msgstr "نام منبع *"
+
+msgid "Source name is limited to 191 characters."
+msgstr "نام منبع حداکثر ۱۹۱ کاراکتر."
+
+msgid "Source name is required."
+msgstr "نام منبع الزامی است."
+
+msgid "Source not found."
+msgstr "منبع یافت نشد."
+
+msgid "Source status changed."
+msgstr "وضعیت منبع تغییر کرد."
+
+msgid "Source updated."
+msgstr "منبع به‌روزرسانی شد."
+
+msgid "Source website"
+msgstr "وب‌سایت منبع"
+
+msgid "Sources"
+msgstr "منابع"
+
+msgid "Sources (active: "
+msgstr "منابع (فعال: "
+
+msgid "Sources → Add source. Add at least three RSS feeds covering one subject area so stories can be corroborated across sources."
+msgstr "منابع → افزودن منبع؛ حداقل ۳ فید RSS مرتبط با یک حوزه اضافه کنید تا استوری‌ها بتوانند از چند منبع تأیید شوند."
+
+msgid "Sources → add at least three RSS feeds on the same topic (three tech news sites, for example)."
+msgstr "منابع → حداقل ۳ فید RSS هم‌موضوع اضافه کنید (مثلاً سه سایت خبری فناوری)."
+
+msgid "Stage 1 window (hours)"
+msgstr "پنجره مرحله ۱ (ساعت)"
+
+msgid "Stage 2 window (days)"
+msgstr "پنجره مرحله ۲ (روز)"
+
+msgid "Staged scenes that misrepresent the story"
+msgstr "صحنه‌سازی گمراه‌کننده که در خبر وجود ندارد"
+
+msgid "Start"
+msgstr "شروع"
+
+msgid "Start with the “Run the full pipeline” button."
+msgstr "با دکمهٔ «اجرای کامل Pipeline» شروع کنید."
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Status:"
+msgstr "وضعیت:"
+
+msgid "Stories"
+msgstr "استوری‌ها"
+
+msgid "Stories (selected: "
+msgstr "استوری (انتخاب‌شده: "
+
+msgid "Stories exist but none were selected → check your thresholds."
+msgstr "استوری هست ولی هیچ‌کدام انتخاب نشده → آستانه‌ها را ببینید."
+
+msgid "Story"
+msgstr "استوری"
+
+msgid "Story title"
+msgstr "عنوان استوری"
+
+msgid "Subject in the left third, clear space on the right for a headline."
+msgstr "سوژه در یک‌سوم چپ، فضای خالی سمت راست برای تیتر."
+
+msgid "Success"
+msgstr "موفق"
+
+msgid "Suggest links during content generation"
+msgstr "پیشنهاد لینک در تولید محتوا"
+
+msgid "Suggested aspect ratio"
+msgstr "نسبت تصویر پیشنهادی"
+
+msgid "System"
+msgstr "سیستم"
+
+msgid "System health"
+msgstr "سلامت سیستم"
+
+msgid "System health and run now ←"
+msgstr "صفحهٔ سلامت سیستم و اجرای فوری ←"
+
+msgid "Telegram"
+msgstr "تلگرام"
+
+msgid "Telegram bot token"
+msgstr "توکن ربات تلگرام"
+
+msgid "Telegram chat ID"
+msgstr "شناسهٔ چت تلگرام"
+
+msgid "Template not found: %s"
+msgstr "قالب یافت نشد: %s"
+
+msgid "Templates"
+msgstr "قالب‌ها"
+
+msgid "Ten-minute setup checklist"
+msgstr "چک‌لیست راه‌اندازی در ۱۰ دقیقه"
+
+msgid "Test AI connection"
+msgstr "تست اتصال AI"
+
+msgid "Test connection"
+msgstr "تست اتصال"
+
+msgid "Text or numbers inside the image"
+msgstr "متن یا عدد داخل تصویر"
+
+msgid "That means discovery has never run, or every source is failing — check the items above and below."
+msgstr "یعنی Discovery هیچ‌وقت اجرا نشده یا همهٔ منابع خطا داده‌اند — موارد بالا و پایین را ببینید."
+
+msgid "That version was not found."
+msgstr "نسخهٔ موردنظر یافت نشد."
+
+msgid "The API key is invalid."
+msgstr "کلید API نامعتبر است."
+
+msgid "The URL pattern (regex) is invalid."
+msgstr "الگوی URL (regex) نامعتبر است."
+
+msgid "The article is written natively in this language, not translated word for word. Product names, brands and version numbers keep their original form. If WPML or Polylang is active, the post language is set on the draft automatically so you can attach other translations to it later."
+msgstr "مقاله کاملاً به این زبان و به‌صورت اورجینال نوشته می‌شود (نه ترجمهٔ کلمه‌به‌کلمه). نام محصول‌ها، برندها و نسخه‌ها به‌شکل اصلی می‌مانند. اگر WPML یا Polylang فعال باشد، زبان پست به‌طور خودکار روی پیش‌نویس تنظیم می‌شود تا بعداً ترجمه‌های دیگر را به آن متصل کنید."
+
+msgid "The current value is never shown. Blank = unchanged. To clear it, tick “Delete key”."
+msgstr "مقدار فعلی هرگز نمایش داده نمی‌شود. خالی = بدون تغییر. برای پاک‌کردن، گزینهٔ «حذف کلید» را تیک بزنید."
+
+msgid "The default comes from GapGPT's own documentation; the full model list is available at /v1/models."
+msgstr "مقدار پیش‌فرض از مستند رسمی GapGPT است؛ فهرست کامل مدل‌ها از /v1/models قابل بررسی است."
+
+msgid "The digest was not sent (it is disabled, or it already went out today)."
+msgstr "خلاصه ارسال نشد (غیرفعال است یا امروز قبلاً ارسال شده)."
+
+msgid "The feed URL is invalid or not allowed (SSRF)."
+msgstr "آدرس فید معتبر نیست یا غیرمجاز است (SSRF)."
+
+msgid "The immediate run has finished. Check “Last run” for the job status and the logs for detail."
+msgstr "اجرای فوری تمام شد. وضعیت جاب را در «آخرین اجرا» و جزئیات را در لاگ‌ها ببینید."
+
+msgid "The job was created and queued."
+msgstr "جاب ایجاد شد و در صف قرار گرفت."
+
+msgid "The job was created and queued. You can follow the result on the dashboard or in the logs."
+msgstr "کار ایجاد و در صف اجرا قرار گرفت. نتیجه در داشبورد/لاگ‌ها قابل پیگیری است."
+
+msgid "The last fetch failed for every source: "
+msgstr "آخرین دریافت همهٔ منابع خطا داده: "
+
+msgid "The model's verdict on each claim is recorded; the rules always make the final decision (§19)."
+msgstr "داوری مدل برای ادعاها ثبت می‌شود؛ تصمیم نهایی همیشه با قوانین است (§19)."
+
+msgid "The order below is the real fallback order: if the first provider fails with a retryable error, the next is tried. An authentication or budget error never triggers a fallback (§9.1)."
+msgstr "ترتیب زیر همان ترتیب واقعی جایگزینی است: اگر ارائه‌دهندهٔ اول با خطای قابل‌تکرار شکست بخورد، بعدی امتحان می‌شود. خطای احراز هویت یا بودجه هرگز باعث جایگزینی نمی‌شود (§9.1)."
+
+msgid "The per-job token budget is exhausted; set it to zero (unlimited) or raise it in the AI settings."
+msgstr "بودجهٔ توکن هر جاب تمام شده؛ در تنظیمات AI آن را صفر (نامحدود) یا بزرگ‌تر کنید."
+
+msgid "The pipeline is ready; the next run follows the schedule."
+msgstr "پایپ‌لاین آماده است؛ اجرای بعدی طبق زمان‌بندی انجام می‌شود."
+
+msgid "The plugin's 15-minute tick is not registered in WP-Cron; automatic runs will never start."
+msgstr "تیک ۱۵ دقیقه‌ای افزونه در WP-Cron ثبت نیست؛ اجرای خودکار هرگز شروع نمی‌شود."
+
+msgid "The queue (Action Scheduler / WP-Cron) is not working — check the “Queue” and “Scheduler” items, or press “Run now”."
+msgstr "صف اجرا (Action Scheduler / WP-Cron) کار نمی‌کند — مورد «صف اجرا» و «زمان‌بند» را ببینید یا «اجرای فوری» بزنید."
+
+msgid "The source URL is empty."
+msgstr "نشانی منبع خالی است."
+
+msgid "The source and its news items were deleted."
+msgstr "منبع و آیتم‌های خبری آن حذف شدند."
+
+msgid "The source website URL is invalid or not allowed."
+msgstr "آدرس وب‌سایت منبع معتبر نیست یا غیرمجاز است."
+
+msgid "The tick was due %d minutes ago and did not fire. WP-Cron is effectively dead on this site (low traffic, or DISABLE_WP_CRON)."
+msgstr "تیک باید %d دقیقه پیش اجرا می‌شد ولی نشده. WP-Cron روی این سایت عملاً کار نمی‌کند (سایت کم‌بازدید یا DISABLE_WP_CRON)."
+
+msgid "The webhook URL is invalid or not allowed (§52)."
+msgstr "آدرس وب‌هوک نامعتبر یا غیرمجاز است (§52)."
+
+msgid "This is deliberate (quality over quantity). To see a first result, turn on quick-start mode or add more sources on the same topic."
+msgstr "این رفتار عمدی است (کیفیت بر کمیت). برای اولین خروجی «حالت راه‌اندازی سریع» را فعال کنید یا منابع هم‌موضوع بیشتری اضافه کنید."
+
+msgid "This is the raw input list. Duplicates are not deleted; they are linked to the cluster winner so the reasoning stays auditable (§6)."
+msgstr "این فهرست خامِ ورودی است. آیتم تکراری حذف نمی‌شود؛ به برندهٔ خوشه وصل می‌شود تا دلیل تصمیم قابل بازبینی بماند (§6)."
+
+msgid "This page → “Run now” → wait 2 to 5 minutes."
+msgstr "همین صفحه → «اجرای فوری» → ۲ تا ۵ دقیقه صبر کنید."
+
+msgid "This rule cannot be changed (§73). Every output is a draft and nothing else."
+msgstr "این قانون غیرقابل تغییر است (§73). همه خروجی‌ها فقط پیش‌نویس می‌شوند."
+
+msgid "This screen is implemented in a later phase:"
+msgstr "این صفحه در فازهای آینده پیاده‌سازی می‌شود:"
+
+msgid "This source type is not supported yet (RSS, Atom and Web only)."
+msgstr "این نوع منبع هنوز پشتیبانی نمی‌شود (فقط RSS، Atom و Web)."
+
+msgid "This version is not awaiting review; it is view-only."
+msgstr "این نسخه در انتظار بازبینی نیست؛ فقط قابل مشاهده است."
+
+msgid "Thresholds"
+msgstr "آستانه‌ها"
+
+msgid "Time"
+msgstr "زمان"
+
+msgid "Time zone:"
+msgstr "منطقه زمانی:"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Title selector (article page)"
+msgstr "سلکتور عنوان (صفحهٔ خبر)"
+
+msgid "To see your first drafts: lowers the selection threshold to 35, trust to 20 and the content quality gate to 70 (your saved values are left untouched). Publishing still requires human approval. Turn it off once things are running."
+msgstr "برای دیدن اولین پیش‌نویس‌ها: آستانهٔ انتخاب را به ۳۵، اعتماد را به ۲۰ و گیت کیفیت محتوا را به ۷۰ کاهش می‌دهد (مقادیر زیر دست‌نخورده می‌مانند). انتشار همچنان فقط با تأیید انسانی است. بعد از راه‌افتادن خاموشش کنید."
+
+msgid "Token budget per job (0 = unlimited)"
+msgstr "بودجه توکن هر Job (۰ = غیرفعال)"
+
+msgid "Token cap per job"
+msgstr "سقف توکن هر کار"
+
+msgid "Total items"
+msgstr "کل آیتم‌ها"
+
+msgid "Trigger hook"
+msgstr "هوک تریگر"
+
+msgid "Trust"
+msgstr "اعتماد"
+
+msgid "Turn it off once you have seen your first drafts and added enough sources."
+msgstr "بعد از اینکه اولین پیش‌نویس‌ها را دیدید و منابع کافی اضافه کردید، آن را خاموش کنید."
+
+msgid "Type"
+msgstr "نوع"
+
+msgid "Unknown"
+msgstr "ناشناخته"
+
+msgid "Unsupported settings key."
+msgstr "کلید تنظیمات پشتیبانی‌نشده است."
+
+msgid "Updating the source failed."
+msgstr "به‌روزرسانی منبع ناموفق بود."
+
+msgid "Use only clearly licensed images, and record the source and licence in the caption."
+msgstr "فقط از تصویر دارای مجوز روشن استفاده کنید؛ منبع و مجوز را در توضیح تصویر ثبت کنید."
+
+msgid "Use the alternate CDN https://api.gapapi.com/v1 instead of https://api.gapgpt.app/v1 (per the supplier's own documentation)"
+msgstr "به‌جای https://api.gapgpt.app/v1 از CDN جایگزین https://api.gapapi.com/v1 استفاده شود (مستند رسمی supplier)"
+
+msgid "Use the form below to add your first feed or news site."
+msgstr "از فرم پایین صفحه اولین فید یا سایت خبری را اضافه کنید."
+
+msgid "Version"
+msgstr "نسخه"
+
+msgid "Version history"
+msgstr "تاریخچه نسخه‌ها"
+
+msgid "View source"
+msgstr "مشاهدهٔ منبع"
+
+msgid "WP-Cron is only the trigger; the heavy work runs in the background through Action Scheduler (§38, §56). For a real system cron, use WP-CLI (phase 7) or the wp-cron.php script."
+msgstr "WP-Cron فقط تریگر است؛ کار سنگین از طریق Action Scheduler در پس‌زمینه اجرا می‌شود (§38، §56). برای cron واقعی سیستم، از WP-CLI (فاز ۷) یا اسکریپت wp-cron.php استفاده کنید."
+
+msgid "Warning: neither sodium nor openssl is available on this server; keys will be stored unencrypted."
+msgstr "هشدار: افزونهٔ sodium یا openssl روی این سرور در دسترس نیست؛ کلیدها بدون رمزنگاری ذخیره می‌شوند."
+
+msgid "Web extraction settings"
+msgstr "تنظیمات استخراج وب"
+
+msgid "Webhook"
+msgstr "وب‌هوک (Webhook)"
+
+msgid "Webhook URL"
+msgstr "آدرس وب‌هوک"
+
+msgid "Webhook signing secret (HMAC)"
+msgstr "راز امضای وب‌هوک (HMAC)"
+
+msgid "With error: "
+msgstr "با خطا: "
+
+msgid "WordPress (default)"
+msgstr "وردپرس (پیش‌فرض)"
+
+msgid "eCommerce"
+msgstr "فروشگاه‌ساز"
+
+msgid "gapgpt,openai,gemini — fallback applies only to retryable errors (§21)."
+msgstr "gapgpt,openai,gemini — fallback فقط برای خطاهای قابل retry (§21)."
+
+msgid "max_execution_time = %d seconds. A full run (research + fact-check + generation + image) usually takes 2 to 5 minutes and may be cut off mid-way."
+msgstr "max_execution_time = %d ثانیه. یک اجرای کامل (تحقیق + راستی‌آزمایی + تولید + تصویر) معمولاً ۲ تا ۵ دقیقه طول می‌کشد و ممکن است وسط کار قطع شود."
+
+msgid "rss/atom: a standard feed. web: extraction from an HTML listing page — automatic via JSON-LD/OpenGraph, with CSS selector overrides available."
+msgstr "rss/atom: فید استاندارد. web: استخراج از صفحهٔ HTML (فهرست اخبار) — حالت خودکار با JSON-LD/OpenGraph و امکان override با سلکتور CSS."
+
+msgid "العربية"
+msgstr "العربية"
+
+msgid "— (not calculated yet)"
+msgstr "— (هنوز محاسبه نشده)"
+
+msgid "“Run now” executes the job inside this request, independently of WP-Cron and Action Scheduler; it exists for first setup and troubleshooting. If your browser times out the run continues in the background — reload after a few minutes."
+msgstr "«اجرای فوری» جاب را در همین درخواست اجرا می‌کند و به WP-Cron یا Action Scheduler وابسته نیست؛ برای اولین راه‌اندازی و عیب‌یابی است. اگر مرورگر با خطای timeout برگشت، اجرا در پس‌زمینه ادامه دارد — بعد از چند دقیقه بازخوانی کنید."
+
+msgid "▶ Run the whole pipeline now (immediately, no queue)"
+msgstr "▶ اجرای فوری کل پایپ‌لاین (همین حالا، بدون صف)"
+
+msgid "✔ Passed the gate — draft created"
+msgstr "✔ عبور از گیت — پیش‌نویس ساخته شد"
+
+msgid "✖ Below the gate — needs review"
+msgstr "✖ زیر گیت — نیاز به بازبینی"
+
+msgid "EtehadWP"
+msgstr "اتحاد وردپرس"
+
+msgid "Built by %s"
+msgstr "ساخته‌شده توسط %s"
+
+msgid "Documentation"
+msgstr "مستندات"
+
+msgid "Support"
+msgstr "پشتیبانی"

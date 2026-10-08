@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="NewsDesk AI Newsroom">
+	<description>WordPress Coding Standards</description>
+	<file>.</file>
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>tests/*</exclude-pattern>
+	<arg value="sp"/>
+	<config name="minimum_wp_version" value="6.4"/>
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+		<exclude name="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound"/>
+		<exclude name="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHookFound"/>
+		<exclude name="WordPress.WP.I18n.MissingArgDomain"/>
+	</rule>
+	<rule ref="WordPress-Extra"/>
+</ruleset>

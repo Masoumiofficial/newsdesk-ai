@@ -1,0 +1,2387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR NewsDesk AI
+# This file is distributed under the same license as the NewsDesk AI package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NewsDesk AI 1.0.1\n"
+"Report-Msgid-Bugs-To: https://etehadwp.com/support/\n"
+"POT-Creation-Date: 2026-10-07 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: admin/views/_footer.php:11 admin/views/_header.php:36 src/Admin/Menu.php:60
+#: src/Admin/Menu.php:61
+msgid "NewsDesk AI"
+msgstr ""
+
+#: admin/views/_footer.php:12
+msgid "Quality over quantity · nothing is published without human approval"
+msgstr ""
+
+#: admin/views/_footer.php:13
+msgid "Time zone:"
+msgstr ""
+
+#: admin/views/_header.php:12 admin/views/dashboard.php:21
+#: src/Admin/Menu.php:68
+msgid "Dashboard"
+msgstr ""
+
+#: admin/views/_header.php:13 admin/views/health.php:60
+msgid "Review"
+msgstr ""
+
+#: admin/views/_header.php:14 admin/views/stories.php:12 src/Admin/Menu.php:70
+#: src/Application/HealthCheckService.php:251
+#: src/Application/HealthCheckService.php:254
+msgid "Stories"
+msgstr ""
+
+#: admin/views/_header.php:15 admin/views/dashboard.php:75
+#: admin/views/stories.php:39 src/Admin/Menu.php:72
+msgid "Sources"
+msgstr ""
+
+#: admin/views/_header.php:16 admin/views/dashboard.php:62
+#: admin/views/scheduler.php:12 admin/views/settings.php:21
+#: src/Admin/Menu.php:76
+msgid "Schedule"
+msgstr ""
+
+#: admin/views/_header.php:17 admin/views/dashboard.php:74
+#: admin/views/logs.php:12 src/Admin/Menu.php:77
+msgid "Logs"
+msgstr ""
+
+#: admin/views/_header.php:18
+msgid "Health"
+msgstr ""
+
+#: admin/views/_header.php:19 admin/views/settings.php:13 src/Admin/Menu.php:79
+msgid "Settings"
+msgstr ""
+
+#: admin/views/_header.php:38
+msgid "Plugin sections"
+msgstr ""
+
+#: admin/views/_notice.php:12
+msgid "Settings saved."
+msgstr ""
+
+#: admin/views/_notice.php:13
+msgid "Some values were invalid; please check them again."
+msgstr ""
+
+#: admin/views/_notice.php:14
+msgid "Daily digest sent."
+msgstr ""
+
+#: admin/views/_notice.php:15
+msgid "The digest was not sent (it is disabled, or it already went out today)."
+msgstr ""
+
+#: admin/views/_notice.php:16
+msgid "The job was created and queued."
+msgstr ""
+
+#: admin/views/_notice.php:17
+msgid "Connected to provider: "
+msgstr ""
+
+#: admin/views/_notice.php:18
+msgid ""
+"The immediate run has finished. Check “Last run” for the job status and the "
+"logs for detail."
+msgstr ""
+
+#: admin/views/_notice.php:19
+msgid "A similar job is already queued or running."
+msgstr ""
+
+#: admin/views/_notice.php:20
+msgid "Could not load the job."
+msgstr ""
+
+#: admin/views/_notice.php:21
+msgid "Source added."
+msgstr ""
+
+#: admin/views/_notice.php:22 admin/views/sources.php:13
+msgid "Source updated."
+msgstr ""
+
+#: admin/views/_notice.php:23
+msgid "Source deleted."
+msgstr ""
+
+#: admin/views/_notice.php:24 admin/views/sources.php:16
+msgid "Source status changed."
+msgstr ""
+
+#: admin/views/_notice.php:25
+msgid "Could not delete."
+msgstr ""
+
+#: admin/views/_notice.php:26
+msgid "Draft approved — publishing is still manual (§73)."
+msgstr ""
+
+#: admin/views/_notice.php:27
+msgid "Draft rejected."
+msgstr ""
+
+#: admin/views/_notice.php:32
+#, php-format
+msgid "Connected — %1$d items fetched in %2$d ms."
+msgstr ""
+
+#: admin/views/_notice.php:37
+msgid "Example:"
+msgstr ""
+
+#: admin/views/_notice.php:44
+#, php-format
+msgid "%d log rows cleared."
+msgstr ""
+
+#: admin/views/ai-providers.php:14 src/Admin/Menu.php:73
+msgid "AI providers"
+msgstr ""
+
+#: admin/views/ai-providers.php:14
+msgid "Provider chain and budget usage"
+msgstr ""
+
+#: admin/views/ai-providers.php:18
+msgid ""
+"The order below is the real fallback order: if the first provider fails with "
+"a retryable error, the next is tried. An authentication or budget error "
+"never triggers a fallback (§9.1)."
+msgstr ""
+
+#: admin/views/ai-providers.php:23
+msgid ""
+"No provider is configured. Until a valid key is saved, the content "
+"generation phase will not run and no draft will be created."
+msgstr ""
+
+#: admin/views/ai-providers.php:30
+msgid "Order"
+msgstr ""
+
+#: admin/views/ai-providers.php:31
+msgid "ID"
+msgstr ""
+
+#: admin/views/ai-providers.php:32
+msgid "Role"
+msgstr ""
+
+#: admin/views/ai-providers.php:33 admin/views/dashboard.php:86
+#: admin/views/dashboard.php:99 admin/views/draft_preview.php:198
+#: admin/views/drafts.php:87 admin/views/health.php:61
+#: admin/views/health.php:69 admin/views/news-inbox.php:67
+#: admin/views/scheduler.php:33 admin/views/sources.php:56
+#: admin/views/stories.php:45
+msgid "Status"
+msgstr ""
+
+#: admin/views/ai-providers.php:44
+msgid "Configured"
+msgstr ""
+
+#: admin/views/ai-providers.php:46
+msgid "Not configured"
+msgstr ""
+
+#: admin/views/ai-providers.php:55
+msgid "No provider is registered."
+msgstr ""
+
+#: admin/views/ai-providers.php:60
+msgid "Budget and limits"
+msgstr ""
+
+#: admin/views/ai-providers.php:64
+msgid "Maximum tokens per request"
+msgstr ""
+
+#: admin/views/ai-providers.php:68
+msgid "Token cap per job"
+msgstr ""
+
+#: admin/views/ai-providers.php:73 admin/views/ai-providers.php:87
+#: admin/views/linking.php:27
+msgid "Disabled"
+msgstr ""
+
+#: admin/views/ai-providers.php:78
+msgid "Response timeout (seconds)"
+msgstr ""
+
+#: admin/views/ai-providers.php:82
+msgid "AI-assisted fact-checking"
+msgstr ""
+
+#: admin/views/ai-providers.php:85
+msgid "On — the verdict is recorded only; the rules still make the final call."
+msgstr ""
+
+#: admin/views/ai-providers.php:95
+msgid ""
+"API keys are never displayed on this page. Go to the Settings tab to change "
+"them."
+msgstr ""
+
+#: admin/views/dashboard.php:12
+msgid ""
+"The job was created and queued. You can follow the result on the dashboard "
+"or in the logs."
+msgstr ""
+
+#: admin/views/dashboard.php:13
+msgid "A similar job is already active (the duplicate was skipped)."
+msgstr ""
+
+#: admin/views/dashboard.php:14
+msgid "Retry failed."
+msgstr ""
+
+#: admin/views/dashboard.php:21
+msgid ""
+"An AI newsroom for your site — quality over quantity. Nothing is published "
+"without human approval."
+msgstr ""
+
+#: admin/views/dashboard.php:28
+msgid "System health and run now ←"
+msgstr ""
+
+#: admin/views/dashboard.php:37
+msgid "Run discovery"
+msgstr ""
+
+#: admin/views/dashboard.php:42
+msgid "Run the full pipeline (background queue)"
+msgstr ""
+
+#: admin/views/dashboard.php:47
+msgid "Sources (active: "
+msgstr ""
+
+#: admin/views/dashboard.php:48
+msgid "News item"
+msgstr ""
+
+#: admin/views/dashboard.php:49 admin/views/news-inbox.php:26
+#: src/Admin/Page/NewsInboxPage.php:99
+msgid "Duplicate"
+msgstr ""
+
+#: admin/views/dashboard.php:50
+msgid "Stories (selected: "
+msgstr ""
+
+#: admin/views/dashboard.php:51
+msgid "Evidence claim"
+msgstr ""
+
+#: admin/views/dashboard.php:52
+msgid "Content draft"
+msgstr ""
+
+#: admin/views/dashboard.php:53
+msgid "Awaiting review (§36)"
+msgstr ""
+
+#: admin/views/dashboard.php:54
+msgid "Images ready (failed: "
+msgstr ""
+
+#: admin/views/dashboard.php:55
+msgid "Queued"
+msgstr ""
+
+#: admin/views/dashboard.php:56
+msgid "Success"
+msgstr ""
+
+#: admin/views/dashboard.php:57
+msgid "Failed"
+msgstr ""
+
+#: admin/views/dashboard.php:63
+msgid "Next run:"
+msgstr ""
+
+#: admin/views/dashboard.php:64
+msgid "— (not calculated yet)"
+msgstr ""
+
+#: admin/views/dashboard.php:65
+msgid "Global lock:"
+msgstr ""
+
+#: admin/views/dashboard.php:66
+msgid "Busy — waiting for another run to finish"
+msgstr ""
+
+#: admin/views/dashboard.php:66
+msgid "Free"
+msgstr ""
+
+#: admin/views/dashboard.php:67
+msgid "Site local time:"
+msgstr ""
+
+#: admin/views/dashboard.php:70
+msgid "Quick links"
+msgstr ""
+
+#: admin/views/dashboard.php:72
+msgid "Review queue"
+msgstr ""
+
+#: admin/views/dashboard.php:73 admin/views/health.php:22 src/Admin/Menu.php:78
+msgid "System health"
+msgstr ""
+
+#: admin/views/dashboard.php:80
+msgid "Recent jobs"
+msgstr ""
+
+#: admin/views/dashboard.php:84 admin/views/dashboard.php:97
+#: admin/views/draft_preview.php:153 admin/views/scheduler.php:34
+msgid "Job"
+msgstr ""
+
+#: admin/views/dashboard.php:85 admin/views/dashboard.php:98
+#: admin/views/sources.php:53 admin/views/sources.php:134
+msgid "Type"
+msgstr ""
+
+#: admin/views/dashboard.php:87 admin/views/dashboard.php:100
+msgid "Start"
+msgstr ""
+
+#: admin/views/dashboard.php:88 admin/views/dashboard.php:101
+#: admin/views/scheduler.php:31
+msgid "Finished"
+msgstr ""
+
+#: admin/views/dashboard.php:93
+msgid "No job has run yet"
+msgstr ""
+
+#: admin/views/dashboard.php:93
+msgid "Start with the “Run the full pipeline” button."
+msgstr ""
+
+#: admin/views/dashboard.php:103
+msgid "Retry this job? (a new job will be created)"
+msgstr ""
+
+#: admin/views/dashboard.php:107
+msgid "Retry"
+msgstr ""
+
+#: admin/views/draft_preview.php:39
+msgid "No evidence citation"
+msgstr ""
+
+#: admin/views/draft_preview.php:47
+msgid "Unknown"
+msgstr ""
+
+#: admin/views/draft_preview.php:54
+msgid "Preview version"
+msgstr ""
+
+#: admin/views/draft_preview.php:56
+msgid "Back to the review queue"
+msgstr ""
+
+#: admin/views/draft_preview.php:62
+#, php-format
+msgid ""
+"%d citations in the body point to evidence that does not exist in the "
+"database."
+msgid_plural ""
+"%d ارجاع در متن به شواهدی اشاره می‌کنند که در پایگاه داده وجود ندارند."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/views/draft_preview.php:74
+msgid "Meta description:"
+msgstr ""
+
+#: admin/views/draft_preview.php:100
+msgid "Citation notes"
+msgstr ""
+
+#: admin/views/draft_preview.php:111 admin/views/drafts.php:29
+msgid "Decision"
+msgstr ""
+
+#: admin/views/draft_preview.php:113
+msgid "Status:"
+msgstr ""
+
+#: admin/views/draft_preview.php:114
+msgid "Quality score:"
+msgstr ""
+
+#: admin/views/draft_preview.php:122
+msgid "Approve — ready for an editor to publish"
+msgstr ""
+
+#: admin/views/draft_preview.php:128 admin/views/drafts.php:73
+msgid "Reason for rejection (optional)"
+msgstr ""
+
+#: admin/views/draft_preview.php:129 admin/views/drafts.php:75
+msgid "Reject"
+msgstr ""
+
+#: admin/views/draft_preview.php:132
+msgid "This version is not awaiting review; it is view-only."
+msgstr ""
+
+#: admin/views/draft_preview.php:135
+msgid "Open the draft in the WordPress editor ↗"
+msgstr ""
+
+#: admin/views/draft_preview.php:140
+msgid "Generation details"
+msgstr ""
+
+#: admin/views/draft_preview.php:143
+msgid "News type"
+msgstr ""
+
+#: admin/views/draft_preview.php:146
+msgid "Focus keyword"
+msgstr ""
+
+#: admin/views/draft_preview.php:151
+msgid "Provider / model"
+msgstr ""
+
+#: admin/views/draft_preview.php:152
+msgid "Prompt version"
+msgstr ""
+
+#: admin/views/draft_preview.php:154 admin/views/drafts.php:28
+msgid "Create"
+msgstr ""
+
+#: admin/views/draft_preview.php:155
+msgid "Content hash"
+msgstr ""
+
+#: admin/views/draft_preview.php:156 admin/views/drafts.php:24
+#: admin/views/linking.php:42
+msgid "Story"
+msgstr ""
+
+#: admin/views/draft_preview.php:157
+msgid "Evidence:"
+msgstr ""
+
+#: admin/views/draft_preview.php:158
+msgid "Approved:"
+msgstr ""
+
+#: admin/views/draft_preview.php:159
+msgid "Contradiction:"
+msgstr ""
+
+#: admin/views/draft_preview.php:166
+msgid "Other versions"
+msgstr ""
+
+#: admin/views/draft_preview.php:185
+msgid "Evidence map"
+msgstr ""
+
+#: admin/views/draft_preview.php:189
+#, php-format
+msgid "%1$d of %2$d claims are used in the body"
+msgstr ""
+
+#: admin/views/draft_preview.php:194
+msgid "No evidence has been recorded for this story."
+msgstr ""
+
+#: admin/views/draft_preview.php:199
+msgid "Claim"
+msgstr ""
+
+#: admin/views/draft_preview.php:200
+msgid "Evidence snippet"
+msgstr ""
+
+#: admin/views/draft_preview.php:201
+msgid "Confidence"
+msgstr ""
+
+#: admin/views/draft_preview.php:202
+msgid "In body"
+msgstr ""
+
+#: admin/views/drafts.php:12 src/Admin/Menu.php:71
+msgid "Draft review"
+msgstr ""
+
+#: admin/views/drafts.php:12
+msgid "Generated articles awaiting your decision"
+msgstr ""
+
+#: admin/views/drafts.php:15
+msgid ""
+"Every generated article waits here for your decision. “Passed the gate” "
+"means a WordPress draft exists and only needs human approval; “below the "
+"gate” means the quality score fell short and no draft was created. Approving "
+"only marks the version as publishable — the final publish always happens in "
+"WordPress itself, and AUTO PUBLISH is always off (§73)."
+msgstr ""
+
+#: admin/views/drafts.php:19
+msgid "Nothing is awaiting review"
+msgstr ""
+
+#: admin/views/drafts.php:19
+msgid "Once the pipeline has run, generated articles appear here."
+msgstr ""
+
+#: admin/views/drafts.php:25 admin/views/drafts.php:87
+msgid "Version"
+msgstr ""
+
+#: admin/views/drafts.php:26
+msgid "Quality score"
+msgstr ""
+
+#: admin/views/drafts.php:27
+msgid "Quality gate"
+msgstr ""
+
+#: admin/views/drafts.php:44
+msgid "Edit the draft in WordPress"
+msgstr ""
+
+#: admin/views/drafts.php:46
+msgid "Preview and review"
+msgstr ""
+
+#: admin/views/drafts.php:47 admin/views/drafts.php:85
+msgid "Version history"
+msgstr ""
+
+#: admin/views/drafts.php:53
+msgid "✔ Passed the gate — draft created"
+msgstr ""
+
+#: admin/views/drafts.php:55
+msgid "✖ Below the gate — needs review"
+msgstr ""
+
+#: admin/views/drafts.php:68
+msgid "Approve"
+msgstr ""
+
+#: admin/views/drafts.php:87
+msgid "Score"
+msgstr ""
+
+#: admin/views/drafts.php:87
+msgid "Error"
+msgstr ""
+
+#: admin/views/drafts.php:87 admin/views/logs.php:55
+msgid "Time"
+msgstr ""
+
+#: admin/views/health.php:22
+msgid "Find the first blocker and run the pipeline now"
+msgstr ""
+
+#: admin/views/health.php:26
+#, php-format
+msgid "Logs for job #%d"
+msgstr ""
+
+#: admin/views/health.php:33
+msgid "First blocker:"
+msgstr ""
+
+#: admin/views/health.php:39
+msgid "Everything is green."
+msgstr ""
+
+#: admin/views/health.php:39
+msgid "The pipeline is ready; the next run follows the schedule."
+msgstr ""
+
+#: admin/views/health.php:43
+msgid "Running… (allow up to 5 minutes)"
+msgstr ""
+
+#: admin/views/health.php:46
+msgid "▶ Run the whole pipeline now (immediately, no queue)"
+msgstr ""
+
+#: admin/views/health.php:51
+msgid "Test AI connection"
+msgstr ""
+
+#: admin/views/health.php:53
+msgid "Refresh"
+msgstr ""
+
+#: admin/views/health.php:55
+msgid ""
+"“Run now” executes the job inside this request, independently of WP-Cron and "
+"Action Scheduler; it exists for first setup and troubleshooting. If your "
+"browser times out the run continues in the background — reload after a few "
+"minutes."
+msgstr ""
+
+#: admin/views/health.php:62 admin/views/health.php:70
+msgid "Fix"
+msgstr ""
+
+#: admin/views/health.php:76
+msgid "Ten-minute setup checklist"
+msgstr ""
+
+#: admin/views/health.php:78
+msgid ""
+"Settings → enter an API key (GapGPT or OpenAI) → make “Test AI connection” "
+"go green."
+msgstr ""
+
+#: admin/views/health.php:79
+msgid ""
+"Sources → add at least three RSS feeds on the same topic (three tech news "
+"sites, for example)."
+msgstr ""
+
+#: admin/views/health.php:80
+msgid "Settings → turn on “Quick-start mode”."
+msgstr ""
+
+#: admin/views/health.php:81
+msgid "This page → “Run now” → wait 2 to 5 minutes."
+msgstr ""
+
+#: admin/views/health.php:82
+msgid "Draft review → preview → approve → publish from the WordPress editor."
+msgstr ""
+
+#: admin/views/health.php:83
+msgid ""
+"For automatic runs: install Action Scheduler and set up a real system cron "
+"for wp-cron.php."
+msgstr ""
+
+#: admin/views/images.php:12 src/Admin/Menu.php:74
+msgid "Images"
+msgstr ""
+
+#: admin/views/images.php:12
+msgid "Image phase: plan only"
+msgstr ""
+
+#: admin/views/images.php:16
+msgid ""
+"By design this phase is plan-only: for each draft the plugin proposes alt "
+"text, a caption, three visual concepts and stock search terms, and the final "
+"choice is the editor's. No image is generated or uploaded automatically."
+msgstr ""
+
+#: admin/views/images.php:22
+msgid "Suggested aspect ratio"
+msgstr ""
+
+#: admin/views/images.php:26
+msgid "Minimum width"
+msgstr ""
+
+#: admin/views/images.php:30
+msgid "Number of visual concepts"
+msgstr ""
+
+#: admin/views/images.php:34
+msgid "Actually generate images"
+msgstr ""
+
+#: admin/views/images.php:37 admin/views/linking.php:25
+#: admin/views/settings.php:67 admin/views/settings.php:363
+#: admin/views/sources.php:81
+msgid "Active"
+msgstr ""
+
+#: admin/views/images.php:42
+#, php-format
+msgid "Model: %1$s — size: %2$s. A generation failure never blocks the draft."
+msgstr ""
+
+#: admin/views/images.php:49
+msgid "Disabled (default)"
+msgstr ""
+
+#: admin/views/images.php:50
+msgid ""
+"An image plan is still produced for every draft; only the call to the "
+"generation service is skipped."
+msgstr ""
+
+#: admin/views/linking.php:12 src/Admin/Menu.php:75
+msgid "Linking"
+msgstr ""
+
+#: admin/views/linking.php:12
+msgid "Internal link suggestions and source citations"
+msgstr ""
+
+#: admin/views/linking.php:16
+msgid ""
+"Internal links are suggestions only and are never inserted into the body "
+"automatically. An external citation is recorded for every sourced claim so "
+"its origin stays traceable."
+msgstr ""
+
+#: admin/views/linking.php:22
+msgid "Suggest links during content generation"
+msgstr ""
+
+#: admin/views/linking.php:32
+msgid "Post scan pool size"
+msgstr ""
+
+#: admin/views/linking.php:38
+msgid "Source citations in recent stories"
+msgstr ""
+
+#: admin/views/linking.php:43
+msgid "Citations"
+msgstr ""
+
+#: admin/views/linking.php:48
+msgid "No stories have been recorded yet."
+msgstr ""
+
+#: admin/views/logs.php:12
+msgid "Every phase event, in full detail"
+msgstr ""
+
+#: admin/views/logs.php:14
+msgid "API keys are never written to the logs (§49)."
+msgstr ""
+
+#: admin/views/logs.php:19
+msgid "All levels"
+msgstr ""
+
+#: admin/views/logs.php:24
+msgid "job_id"
+msgstr ""
+
+#: admin/views/logs.php:25
+msgid "component"
+msgstr ""
+
+#: admin/views/logs.php:26 admin/views/news-inbox.php:59
+#: admin/views/sources.php:47 admin/views/stories.php:33
+msgid "Filter"
+msgstr ""
+
+#: admin/views/logs.php:31
+msgid "Clearing the logs cannot be undone. Continue?"
+msgstr ""
+
+#: admin/views/logs.php:35
+msgid "Clear all levels"
+msgstr ""
+
+#: admin/views/logs.php:42
+#, php-format
+msgid "Level %s only"
+msgstr ""
+
+#: admin/views/logs.php:50
+msgid "Clear logs"
+msgstr ""
+
+#: admin/views/logs.php:56
+msgid "Level"
+msgstr ""
+
+#: admin/views/logs.php:57
+msgid "Component"
+msgstr ""
+
+#: admin/views/logs.php:58
+msgid "Event"
+msgstr ""
+
+#: admin/views/logs.php:59
+msgid "Job / correlation"
+msgstr ""
+
+#: admin/views/logs.php:60
+msgid "Message"
+msgstr ""
+
+#: admin/views/logs.php:64
+msgid "No log entries found"
+msgstr ""
+
+#: admin/views/logs.php:75
+msgid "Details"
+msgstr ""
+
+#: admin/views/news-inbox.php:17 src/Admin/Menu.php:69
+msgid "News inbox"
+msgstr ""
+
+#: admin/views/news-inbox.php:17
+msgid "Everything crawled, before it becomes a story"
+msgstr ""
+
+#: admin/views/news-inbox.php:21
+msgid ""
+"This is the raw input list. Duplicates are not deleted; they are linked to "
+"the cluster winner so the reasoning stays auditable (§6)."
+msgstr ""
+
+#: admin/views/news-inbox.php:25
+msgid "Total items"
+msgstr ""
+
+#: admin/views/news-inbox.php:35
+#, php-format
+msgid "Showing the duplicate cluster for item #%d."
+msgstr ""
+
+#: admin/views/news-inbox.php:39
+msgid "Back to all news"
+msgstr ""
+
+#: admin/views/news-inbox.php:47 admin/views/sources.php:42
+#: admin/views/stories.php:28
+msgid "All statuses"
+msgstr ""
+
+#: admin/views/news-inbox.php:53
+msgid "All sources"
+msgstr ""
+
+#: admin/views/news-inbox.php:58
+msgid "Search by title…"
+msgstr ""
+
+#: admin/views/news-inbox.php:65
+msgid "Title"
+msgstr ""
+
+#: admin/views/news-inbox.php:66
+msgid "Source"
+msgstr ""
+
+#: admin/views/news-inbox.php:68
+msgid "Cluster"
+msgstr ""
+
+#: admin/views/news-inbox.php:69
+msgid "Date"
+msgstr ""
+
+#: admin/views/news-inbox.php:74
+msgid "No items found."
+msgstr ""
+
+#: admin/views/news-inbox.php:83
+msgid "View source"
+msgstr ""
+
+#: admin/views/news-inbox.php:97
+#, php-format
+msgid "Duplicate of #%1$d (%2$s)"
+msgstr ""
+
+#: admin/views/news-inbox.php:111
+#, php-format
+msgid "%d duplicates"
+msgstr ""
+
+#: admin/views/placeholder.php:14
+msgid "This screen is implemented in a later phase:"
+msgstr ""
+
+#: admin/views/scheduler.php:12
+msgid "Slots, next run and run history"
+msgstr ""
+
+#: admin/views/scheduler.php:15
+msgid "Site time zone"
+msgstr ""
+
+#: admin/views/scheduler.php:16
+msgid "Configured slots"
+msgstr ""
+
+#: admin/views/scheduler.php:17
+msgid "Next run"
+msgstr ""
+
+#: admin/views/scheduler.php:18
+msgid "Trigger hook"
+msgstr ""
+
+#: admin/views/scheduler.php:22
+msgid ""
+"WP-Cron is only the trigger; the heavy work runs in the background through "
+"Action Scheduler (§38, §56). For a real system cron, use WP-CLI (phase 7) or "
+"the wp-cron.php script."
+msgstr ""
+
+#: admin/views/scheduler.php:25
+msgid "Run history — scheduled, actual start, finish and delay (§42)"
+msgstr ""
+
+#: admin/views/scheduler.php:28
+msgid "Slot"
+msgstr ""
+
+#: admin/views/scheduler.php:29
+msgid "Scheduled time"
+msgstr ""
+
+#: admin/views/scheduler.php:30
+msgid "Actual start"
+msgstr ""
+
+#: admin/views/scheduler.php:32
+msgid "Delay (seconds)"
+msgstr ""
+
+#: admin/views/scheduler.php:38
+msgid "No run has been recorded yet"
+msgstr ""
+
+#: admin/views/settings.php:13
+msgid ""
+"Scheduling, editorial selection, AI, content quality, images and "
+"notifications"
+msgstr ""
+
+#: admin/views/settings.php:22
+msgid "Editorial selection"
+msgstr ""
+
+#: admin/views/settings.php:23 admin/views/settings.php:91
+msgid "Fetch feed"
+msgstr ""
+
+#: admin/views/settings.php:24 admin/views/settings.php:109
+msgid "System"
+msgstr ""
+
+#: admin/views/settings.php:25 src/Domain/NewsCategory.php:92
+msgid "AI"
+msgstr ""
+
+#: admin/views/settings.php:26
+msgid "Content generation and quality"
+msgstr ""
+
+#: admin/views/settings.php:27
+msgid "News images"
+msgstr ""
+
+#: admin/views/settings.php:28
+msgid "Notifications and daily digest"
+msgstr ""
+
+#: admin/views/settings.php:33
+msgid "Scheduling (§42)"
+msgstr ""
+
+#: admin/views/settings.php:36
+msgid "Slot times"
+msgstr ""
+
+#: admin/views/settings.php:41
+msgid "Format HH:MM — scheduling follows the site time zone."
+msgstr ""
+
+#: admin/views/settings.php:45
+msgid "Stage 1 window (hours)"
+msgstr ""
+
+#: admin/views/settings.php:48
+msgid "Only news from this window is considered first. Recommended: 24 hours."
+msgstr ""
+
+#: admin/views/settings.php:52
+msgid "Stage 2 window (days)"
+msgstr ""
+
+#: admin/views/settings.php:55
+msgid ""
+"If nothing is found in the stage 1 window, the search widens to this range. "
+"If there is still nothing, the outcome is NO NEWS and no content is created."
+msgstr ""
+
+#: admin/views/settings.php:62
+msgid "Editorial selection (phase 2 — SEO/AEO/GEO first)"
+msgstr ""
+
+#: admin/views/settings.php:65
+msgid "Quick-start mode"
+msgstr ""
+
+#: admin/views/settings.php:68
+msgid ""
+"To see your first drafts: lowers the selection threshold to 35, trust to 20 "
+"and the content quality gate to 70 (your saved values are left untouched). "
+"Publishing still requires human approval. Turn it off once things are "
+"running."
+msgstr ""
+
+#: admin/views/settings.php:72
+msgid "Maximum stories per window"
+msgstr ""
+
+#: admin/views/settings.php:76
+msgid "Quality threshold (composite, 0–100)"
+msgstr ""
+
+#: admin/views/settings.php:78
+msgid ""
+"Below this threshold → the valid outcome NO_PUBLISHABLE_STORY_FOUND (§14)."
+msgstr ""
+
+#: admin/views/settings.php:82
+msgid "Minimum source trust (0–100)"
+msgstr ""
+
+#: admin/views/settings.php:84
+msgid "Low trust cannot be selected even with excellent SEO."
+msgstr ""
+
+#: admin/views/settings.php:94 admin/views/settings.php:215
+msgid "Request timeout (seconds)"
+msgstr ""
+
+#: admin/views/settings.php:98
+msgid "Maximum response size (KB)"
+msgstr ""
+
+#: admin/views/settings.php:102
+msgid "Maximum items per source"
+msgstr ""
+
+#: admin/views/settings.php:112
+msgid "Log level"
+msgstr ""
+
+#: admin/views/settings.php:122
+msgid "Key storage"
+msgstr ""
+
+#: admin/views/settings.php:125
+msgid "WordPress (default)"
+msgstr ""
+
+#: admin/views/settings.php:126
+msgid "Environment variable (NEWSDESK_*)"
+msgstr ""
+
+#: admin/views/settings.php:131
+msgid "Default draft author (ID)"
+msgstr ""
+
+#: admin/views/settings.php:135
+msgid "Default draft category (ID)"
+msgstr ""
+
+#: admin/views/settings.php:139
+msgid "Auto-publish"
+msgstr ""
+
+#: admin/views/settings.php:141
+msgid "Disabled — always off"
+msgstr ""
+
+#: admin/views/settings.php:142
+msgid ""
+"This rule cannot be changed (§73). Every output is a draft and nothing else."
+msgstr ""
+
+#: admin/views/settings.php:146
+msgid "Deletion mode on uninstall"
+msgstr ""
+
+#: admin/views/settings.php:150
+msgid "Delete all data on uninstall (default: keep)"
+msgstr ""
+
+#: admin/views/settings.php:158
+msgid "AI (phase 3 — §18, §22, §23)"
+msgstr ""
+
+#: admin/views/settings.php:161
+msgid "Provider order (fallback priority)"
+msgstr ""
+
+#: admin/views/settings.php:163
+msgid "gapgpt,openai,gemini — fallback applies only to retryable errors (§21)."
+msgstr ""
+
+#: admin/views/settings.php:167
+msgid "API keys (stored only in SecretStorage — §23)"
+msgstr ""
+
+#: admin/views/settings.php:173
+msgid "(Set ✅ — enter a new value to change it)"
+msgstr ""
+
+#: admin/views/settings.php:174
+msgid "Delete key"
+msgstr ""
+
+#: admin/views/settings.php:176
+msgid "(not set)"
+msgstr ""
+
+#: admin/views/settings.php:180
+msgid ""
+"The current value is never shown. Blank = unchanged. To clear it, tick "
+"“Delete key”."
+msgstr ""
+
+#: admin/views/settings.php:182
+msgid ""
+"Warning: neither sodium nor openssl is available on this server; keys will "
+"be stored unencrypted."
+msgstr ""
+
+#: admin/views/settings.php:184
+msgid ""
+"Keys are stored encrypted in the database, using a key derived from AUTH_KEY."
+msgstr ""
+
+#: admin/views/settings.php:189
+msgid "GapGPT model"
+msgstr ""
+
+#: admin/views/settings.php:193
+msgid "OpenAI model"
+msgstr ""
+
+#: admin/views/settings.php:197
+msgid "Gemini model"
+msgstr ""
+
+#: admin/views/settings.php:201
+msgid "GapGPT via alternate CDN"
+msgstr ""
+
+#: admin/views/settings.php:203
+msgid ""
+"Use the alternate CDN https://api.gapapi.com/v1 instead of https://"
+"api.gapgpt.app/v1 (per the supplier's own documentation)"
+msgstr ""
+
+#: admin/views/settings.php:207
+msgid "Temperature"
+msgstr ""
+
+#: admin/views/settings.php:211
+msgid "Maximum output tokens"
+msgstr ""
+
+#: admin/views/settings.php:219
+msgid "Token budget per job (0 = unlimited)"
+msgstr ""
+
+#: admin/views/settings.php:221
+msgid "Checked before every network call (BUDGET_EXCEEDED — §22)."
+msgstr ""
+
+#: admin/views/settings.php:225
+msgid "AI fact-check"
+msgstr ""
+
+#: admin/views/settings.php:227
+msgid ""
+"The model's verdict on each claim is recorded; the rules always make the "
+"final decision (§19)."
+msgstr ""
+
+#: admin/views/settings.php:231
+msgid "Cost estimate currency"
+msgstr ""
+
+#: admin/views/settings.php:238
+msgid "Phase 4 — content generation and quality (§36)"
+msgstr ""
+
+#: admin/views/settings.php:241
+msgid "Language of generated articles"
+msgstr ""
+
+#: admin/views/settings.php:244
+msgid "Persian — English sources are rewritten natively, not translated"
+msgstr ""
+
+#: admin/views/settings.php:245
+msgid "English"
+msgstr ""
+
+#: admin/views/settings.php:246
+msgid "العربية"
+msgstr ""
+
+#: admin/views/settings.php:247
+msgid "Same language as each story's source"
+msgstr ""
+
+#: admin/views/settings.php:249
+msgid ""
+"The article is written natively in this language, not translated word for "
+"word. Product names, brands and version numbers keep their original form. If "
+"WPML or Polylang is active, the post language is set on the draft "
+"automatically so you can attach other translations to it later."
+msgstr ""
+
+#: admin/views/settings.php:253
+msgid "Content quality gate (0–100)"
+msgstr ""
+
+#: admin/views/settings.php:255
+msgid ""
+"Below this score the version is revised; once revisions run out → "
+"NEEDS_REVIEW (§36)."
+msgstr ""
+
+#: admin/views/settings.php:259
+msgid "Maximum AI revisions"
+msgstr ""
+
+#: admin/views/settings.php:261
+msgid ""
+"Gate feedback is sent back to the model; beyond this many attempts, no draft "
+"is created (§31)."
+msgstr ""
+
+#: admin/views/settings.php:265
+msgid "Linking (internal / external)"
+msgstr ""
+
+#: admin/views/settings.php:267
+msgid ""
+"Layers 15–16: internal link suggestions plus external citations from "
+"verified sources."
+msgstr ""
+
+#: admin/views/settings.php:271
+msgid "Content generation enabled"
+msgstr ""
+
+#: admin/views/settings.php:273
+msgid "Off = research, evidence and fact-checking only (no-article mode)."
+msgstr ""
+
+#: admin/views/settings.php:280
+msgid "Phase 5 — news images (§66)"
+msgstr ""
+
+#: admin/views/settings.php:283
+msgid "Image generation enabled"
+msgstr ""
+
+#: admin/views/settings.php:285
+msgid ""
+"Off = no images; an image service failure never fails the article or the job "
+"(§66)."
+msgstr ""
+
+#: admin/views/settings.php:289
+msgid "Image model"
+msgstr ""
+
+#: admin/views/settings.php:291
+msgid ""
+"The default comes from GapGPT's own documentation; the full model list is "
+"available at /v1/models."
+msgstr ""
+
+#: admin/views/settings.php:295
+msgid "Image size"
+msgstr ""
+
+#: admin/views/settings.php:297
+msgid "Format: width×height (for example 1024x1024)."
+msgstr ""
+
+#: admin/views/settings.php:301
+msgid "Download size cap (bytes)"
+msgstr ""
+
+#: admin/views/settings.php:303
+msgid "Response size limit when downloading images (§52)."
+msgstr ""
+
+#: admin/views/settings.php:311
+msgid "Notifications and daily digest (phase 8)"
+msgstr ""
+
+#: admin/views/settings.php:312
+msgid ""
+"Publishing is always manual (§73). Notifications only inform you and never "
+"block a job. Tokens and secret URLs live in SecretStorage (§23) and never "
+"reach HTML or the logs."
+msgstr ""
+
+#: admin/views/settings.php:315
+msgid "Enable notifications"
+msgstr ""
+
+#: admin/views/settings.php:319
+msgid "Channels"
+msgstr ""
+
+#: admin/views/settings.php:330
+msgid "Events"
+msgstr ""
+
+#: admin/views/settings.php:332
+msgid "Content ready for review"
+msgstr ""
+
+#: admin/views/settings.php:333 admin/views/settings.php:361
+msgid "Daily digest"
+msgstr ""
+
+#: admin/views/settings.php:337
+msgid "Webhook URL"
+msgstr ""
+
+#: admin/views/settings.php:338 admin/views/settings.php:342
+#: admin/views/settings.php:350 admin/views/settings.php:358
+msgid "Set — enter a new value to change it"
+msgstr ""
+
+#: admin/views/settings.php:338
+msgid "https://…"
+msgstr ""
+
+#: admin/views/settings.php:338 admin/views/settings.php:342
+#: admin/views/settings.php:350 admin/views/settings.php:358
+msgid "Delete the stored value"
+msgstr ""
+
+#: admin/views/settings.php:341
+msgid "Webhook signing secret (HMAC)"
+msgstr ""
+
+#: admin/views/settings.php:345
+msgid "Email recipients (comma separated)"
+msgstr ""
+
+#: admin/views/settings.php:349
+msgid "Telegram bot token"
+msgstr ""
+
+#: admin/views/settings.php:353
+msgid "Telegram chat ID"
+msgstr ""
+
+#: admin/views/settings.php:357
+msgid "Slack webhook URL"
+msgstr ""
+
+#: admin/views/settings.php:358
+msgid "https://hooks.slack.com/services/…"
+msgstr ""
+
+#: admin/views/settings.php:371
+msgid ""
+"Changes only take effect when you press Save. API keys are never displayed "
+"on this page."
+msgstr ""
+
+#: admin/views/settings.php:372
+msgid "Save settings"
+msgstr ""
+
+#: admin/views/settings.php:386
+msgid "Send the daily digest now"
+msgstr ""
+
+#: admin/views/sources.php:12
+msgid "Source created successfully."
+msgstr ""
+
+#: admin/views/sources.php:14
+msgid "The source and its news items were deleted."
+msgstr ""
+
+#: admin/views/sources.php:15
+msgid "Delete failed."
+msgstr ""
+
+#: admin/views/sources.php:29 src/Application/HealthCheckService.php:157
+#: src/Application/HealthCheckService.php:160
+#: src/Application/HealthCheckService.php:173
+#: src/Application/HealthCheckService.php:176
+#: src/Application/HealthCheckService.php:180
+#: src/Application/HealthCheckService.php:183
+#: src/Application/HealthCheckService.php:185
+msgid "News sources"
+msgstr ""
+
+#: admin/views/sources.php:29
+msgid "Feeds and news sites with trust scores"
+msgstr ""
+
+#: admin/views/sources.php:34
+msgid "Search by name…"
+msgstr ""
+
+#: admin/views/sources.php:36
+msgid "All types"
+msgstr ""
+
+#: admin/views/sources.php:52
+msgid "Name"
+msgstr ""
+
+#: admin/views/sources.php:54 admin/views/sources.php:186
+msgid "Language"
+msgstr ""
+
+#: admin/views/sources.php:55 admin/views/stories.php:44
+msgid "Trust"
+msgstr ""
+
+#: admin/views/sources.php:57
+msgid "Last success"
+msgstr ""
+
+#: admin/views/sources.php:58
+msgid "Actions"
+msgstr ""
+
+#: admin/views/sources.php:62
+msgid "No sources registered"
+msgstr ""
+
+#: admin/views/sources.php:62
+msgid "Use the form below to add your first feed or news site."
+msgstr ""
+
+#: admin/views/sources.php:75
+msgid "Edit"
+msgstr ""
+
+#: admin/views/sources.php:81
+msgid "Paused"
+msgstr ""
+
+#: admin/views/sources.php:87
+msgid "Test connection"
+msgstr ""
+
+#: admin/views/sources.php:89
+msgid "Delete this source and all of its news items?"
+msgstr ""
+
+#: admin/views/sources.php:93
+msgid "Delete"
+msgstr ""
+
+#: admin/views/sources.php:120
+msgid "Edit source"
+msgstr ""
+
+#: admin/views/sources.php:120
+msgid "Add source"
+msgstr ""
+
+#: admin/views/sources.php:130
+msgid "Source name *"
+msgstr ""
+
+#: admin/views/sources.php:141
+msgid ""
+"rss/atom: a standard feed. web: extraction from an HTML listing page — "
+"automatic via JSON-LD/OpenGraph, with CSS selector overrides available."
+msgstr ""
+
+#: admin/views/sources.php:145
+msgid "Feed URL"
+msgstr ""
+
+#: admin/views/sources.php:147
+msgid ""
+"For web sources: the URL of a listing page (the home page or a section)."
+msgstr ""
+
+#: admin/views/sources.php:153
+msgid "List item selector"
+msgstr ""
+
+#: admin/views/sources.php:154
+msgid "Article link selector"
+msgstr ""
+
+#: admin/views/sources.php:155
+msgid "Article URL pattern (regex)"
+msgstr ""
+
+#: admin/views/sources.php:156
+msgid "Title selector (article page)"
+msgstr ""
+
+#: admin/views/sources.php:157
+msgid "Body selector (article page)"
+msgstr ""
+
+#: admin/views/sources.php:158
+msgid "Date selector (article page)"
+msgstr ""
+
+#: admin/views/sources.php:159
+msgid "Author selector (article page)"
+msgstr ""
+
+#: admin/views/sources.php:160
+msgid "Maximum items per fetch"
+msgstr ""
+
+#: admin/views/sources.php:164
+msgid "Web extraction settings"
+msgstr ""
+
+#: admin/views/sources.php:166
+msgid ""
+"All optional. Blank = automatic detection (JSON-LD → OpenGraph → <article>/"
+"<h1>). Fill these in only when automatic detection gets it wrong. Supported "
+"selectors: tag, .class, #id, [attr=val], descendant spaces and >."
+msgstr ""
+
+#: admin/views/sources.php:174
+msgid "Follow links outside the source domain"
+msgstr ""
+
+#: admin/views/sources.php:182
+msgid "Source website"
+msgstr ""
+
+#: admin/views/sources.php:190
+msgid "Editorial category"
+msgstr ""
+
+#: admin/views/sources.php:200
+msgid "Priority (1–100)"
+msgstr ""
+
+#: admin/views/sources.php:204
+msgid "Source type"
+msgstr ""
+
+#: admin/views/sources.php:211
+msgid "What kind of publisher this is. SECURITY sources feed CVE extraction."
+msgstr ""
+
+#: admin/views/sources.php:215
+msgid "Trust tier"
+msgstr ""
+
+#: admin/views/sources.php:220
+msgid "Tier 1 — official / authoritative"
+msgstr ""
+
+#: admin/views/sources.php:221
+msgid "Tier 2 — established publication"
+msgstr ""
+
+#: admin/views/sources.php:222
+msgid "Tier 3 — general media"
+msgstr ""
+
+#: admin/views/sources.php:223
+msgid "Tier 4 — unverified / community"
+msgstr ""
+
+#: admin/views/sources.php:236
+#, php-format
+msgid "Sets the default base trust when you leave the score blank (%s)."
+msgstr ""
+
+#: admin/views/sources.php:244
+msgid "Base trust (0–100)"
+msgstr ""
+
+#: admin/views/sources.php:247
+msgid "Leave blank to inherit the tier default."
+msgstr ""
+
+#: admin/views/sources.php:251
+msgid "Fetch interval (minutes)"
+msgstr ""
+
+#: admin/views/sources.php:256
+msgid "Save"
+msgstr ""
+
+#: admin/views/sources.php:257
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/stories.php:12
+msgid "News clusters and SEO/AEO/GEO scores"
+msgstr ""
+
+#: admin/views/stories.php:15
+msgid ""
+"One story = one editorial unit gathering several sources. It never becomes "
+"more than one article (§5). Selection is an editorial decision; the output "
+"is not an article yet."
+msgstr ""
+
+#: admin/views/stories.php:19
+msgid "Candidate"
+msgstr ""
+
+#: admin/views/stories.php:20
+msgid "Selected"
+msgstr ""
+
+#: admin/views/stories.php:21
+msgid "Rejected"
+msgstr ""
+
+#: admin/views/stories.php:22
+msgid "Expired"
+msgstr ""
+
+#: admin/views/stories.php:38
+msgid "Story title"
+msgstr ""
+
+#: admin/views/stories.php:40
+msgid "Composite"
+msgstr ""
+
+#: admin/views/stories.php:41 src/Domain/NewsCategory.php:91
+msgid "SEO"
+msgstr ""
+
+#: admin/views/stories.php:42
+msgid "AEO"
+msgstr ""
+
+#: admin/views/stories.php:43
+msgid "GEO"
+msgstr ""
+
+#: admin/views/stories.php:49
+msgid "No stories found"
+msgstr ""
+
+#: admin/views/stories.php:49
+msgid "Running the full pipeline is what builds the clusters."
+msgstr ""
+
+#: src/Admin/AdminActions.php:170
+msgid "The webhook URL is invalid or not allowed (§52)."
+msgstr ""
+
+#: src/Admin/AdminActions.php:215
+msgid "Provider test failed: "
+msgstr ""
+
+#: src/Admin/AdminActions.php:258
+msgid "Invalid source."
+msgstr ""
+
+#: src/Admin/AdminActions.php:264 src/Application/SourceService.php:64
+msgid "Source not found."
+msgstr ""
+
+#: src/Admin/AdminActions.php:278
+#, php-format
+msgid "Connection test failed (%1$s): %2$s"
+msgstr ""
+
+#: src/Admin/AdminActions.php:333 src/Admin/Page/AiProvidersPage.php:40
+#: src/Admin/Page/DashboardPage.php:35 src/Admin/Page/DraftReviewPage.php:28
+#: src/Admin/Page/HealthPage.php:28 src/Admin/Page/ImagesPage.php:35
+#: src/Admin/Page/LinkingPage.php:46 src/Admin/Page/LogsPage.php:29
+#: src/Admin/Page/NewsInboxPage.php:43 src/Admin/Page/PlaceholderPage.php:28
+#: src/Admin/Page/SchedulerPage.php:28 src/Admin/Page/SettingsPage.php:27
+#: src/Admin/Page/SourcesPage.php:31 src/Admin/Page/StoriesPage.php:28
+msgid "Access denied."
+msgstr ""
+
+#: src/Admin/AdminView.php:21
+#, php-format
+msgid "Template not found: %s"
+msgstr ""
+
+#: src/Admin/Page/AiProvidersPage.php:61
+msgid "Primary"
+msgstr ""
+
+#: src/Admin/Page/AiProvidersPage.php:61
+msgid "Fallback"
+msgstr ""
+
+#: src/Admin/Page/DraftReviewPage.php:37
+msgid "That version was not found."
+msgstr ""
+
+#: src/Admin/Page/NewsInboxPage.php:97
+msgid "Fresh"
+msgstr ""
+
+#: src/Admin/Page/NewsInboxPage.php:98
+msgid "Normalized"
+msgstr ""
+
+#: src/Admin/Page/NewsInboxPage.php:100
+msgid "Ignored"
+msgstr ""
+
+#: src/Application/Content/CorrectionService.php:123
+msgid "Correct"
+msgstr ""
+
+#: src/Application/DigestService.php:73
+msgid "Newsroom daily digest"
+msgstr ""
+
+#: src/Application/DigestService.php:153
+#, php-format
+msgid "News items in the last 24 hours: %d"
+msgstr ""
+
+#: src/Application/DigestService.php:154
+#, php-format
+msgid "In the review queue (draft / needs review): %d"
+msgstr ""
+
+#: src/Application/DigestService.php:155
+#, php-format
+msgid "Approved for publishing: %d · Reviewed: %d"
+msgstr ""
+
+#: src/Application/DigestService.php:156
+#, php-format
+msgid ""
+"Jobs: %d queued / %d running / %d complete / %d failed / %d needing review"
+msgstr ""
+
+#: src/Application/DigestService.php:158
+#, php-format
+msgid "Review page: %s"
+msgstr ""
+
+#: src/Application/FeedTester.php:59
+msgid "The source URL is empty."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:136
+msgid "PHP extensions"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:136
+#, php-format
+msgid "Required PHP extensions are missing: %s"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:136
+msgid "Ask your host to enable these extensions."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:139
+msgid "PHP execution limit"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:139
+#, php-format
+msgid ""
+"max_execution_time = %d seconds. A full run (research + fact-check + "
+"generation + image) usually takes 2 to 5 minutes and may be cut off mid-way."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:139
+msgid ""
+"Run it through Action Scheduler and WP-CLI cron, or raise max_execution_time "
+"to 300."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:141
+msgid "PHP environment"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:147
+#: src/Application/HealthCheckService.php:150
+msgid "AI API key"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:147
+msgid ""
+"No provider has a key. Without one, nothing is generated — discovery still "
+"works, but the pipeline stops at RESEARCHING."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:147
+msgid ""
+"Settings → API keys → enter and save a GapGPT or OpenAI key; it should then "
+"read “Set ✅”."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:150
+#, php-format
+msgid "Providers ready: %s (press “Test connection” for a real check)"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:157
+msgid "No sources have been defined."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:157
+msgid ""
+"Sources → Add source. Add at least three RSS feeds covering one subject area "
+"so stories can be corroborated across sources."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:160
+#, php-format
+msgid "%d sources are defined but none are active or fetchable."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:160
+msgid ""
+"On the Sources page press “Active” and make sure the feed URL is filled in."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:173
+msgid ""
+"Only one source is active. Story scoring weights multi-source corroboration "
+"heavily, so a single source rarely reaches the selection threshold."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:173
+msgid ""
+"Add at least two or three sources covering the same topic, or turn on quick-"
+"start mode."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:176
+msgid "The last fetch failed for every source: "
+msgstr ""
+
+#: src/Application/HealthCheckService.php:176
+msgid ""
+"Open the feed URLs in a browser. If they load there but fail here, your host "
+"has probably blocked outbound HTTP, or the feed resolves to a private IP."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:178
+#, php-format
+msgid "%1$d of %2$d active"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:180
+msgid "With error: "
+msgstr ""
+
+#: src/Application/HealthCheckService.php:180
+msgid "Review or disable the failing sources."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:183
+msgid "No fetch has happened yet."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:183
+msgid "Press the “Run now” button further down this page."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:192
+#: src/Application/HealthCheckService.php:194
+msgid "Collected news"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:192
+msgid "No news has been fetched from any source yet."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:192
+msgid ""
+"That means discovery has never run, or every source is failing — check the "
+"items above and below."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:194
+#, php-format
+msgid "%1$d items in total, %2$d in the last 24 hours"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:201
+#: src/Application/HealthCheckService.php:205
+#: src/Application/HealthCheckService.php:208
+msgid "Scheduler (WP-Cron)"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:201
+msgid ""
+"The plugin's 15-minute tick is not registered in WP-Cron; automatic runs "
+"will never start."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:201
+msgid ""
+"Press “Save settings” once to re-register the tick, or deactivate and "
+"reactivate the plugin."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:205
+#, php-format
+msgid ""
+"The tick was due %d minutes ago and did not fire. WP-Cron is effectively "
+"dead on this site (low traffic, or DISABLE_WP_CRON)."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:205
+msgid ""
+"Create a real cron job on your server or in cPanel: every 5 minutes run "
+"`wget -q -O /dev/null https://SITE/wp-cron.php?doing_wp_cron` — or use “Run "
+"now” for the time being."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:208
+#, php-format
+msgid "Next tick: %1$s · Next pipeline slot: %2$s%3$s"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:213
+#: src/Application/HealthCheckService.php:215
+msgid "Queue"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:215
+msgid ""
+"Action Scheduler is not installed; jobs fall back to single-event WP-Cron, "
+"which is slower, less reliable and depends on site traffic."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:215
+msgid "Install the free Action Scheduler plugin (or WooCommerce)."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:221
+#: src/Application/HealthCheckService.php:227
+#: src/Application/HealthCheckService.php:230
+#: src/Application/HealthCheckService.php:233
+#: src/Application/HealthCheckService.php:237
+#: src/Application/HealthCheckService.php:240
+#: src/Application/HealthCheckService.php:243
+#: src/Application/HealthCheckService.php:245
+msgid "Last run"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:221
+msgid "No job has been created yet — the pipeline has never run."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:221
+msgid "Press the “Run now” button."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:227
+#, php-format
+msgid "Job #%1$d from %2$s has been queued since then and never started."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:227
+msgid ""
+"The queue (Action Scheduler / WP-Cron) is not working — check the “Queue” "
+"and “Scheduler” items, or press “Run now”."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:230
+#, php-format
+msgid ""
+"Job #%1$d has been stuck at phase %2$s for over an hour — PHP most likely "
+"timed out mid-run."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:230
+msgid "Raise max_execution_time, then press “Retry” on the dashboard."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:233
+#, php-format
+msgid "Job #%1$d failed at phase %2$s: %3$s — %4$s"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:237
+#, php-format
+msgid ""
+"Job #%1$d (%2$s): stories were selected and researched, but none passed fact-"
+"checking (contradicted or unverified) → no content was generated."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:237
+msgid ""
+"Look for the STORY_NOT_ELIGIBLE event in the logs. It usually means your "
+"sources reported the same news in different words; add more sources in the "
+"same language and subject area."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:240
+#, php-format
+msgid ""
+"Job #%1$d (%2$s) finished as needs_review but saved no content version — the "
+"model's output was rejected on every attempt during generation "
+"(SCHEMA_FAIL / BUSINESS_RULE_FAIL), so there is nothing to review."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:240
+msgid ""
+"Open the SCHEMA_RETRY / SCHEMA_FAIL / STORY_NO_CONTENT events in the logs; "
+"the Details column names the exact field that failed. Usually the model is "
+"too weak or does not support JSON output — pick a stronger one, such as "
+"gpt-4o, claude-sonnet or gemini-1.5-pro."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:243
+#, php-format
+msgid ""
+"Job #%1$d (%2$s) completed cleanly but returned NO_PUBLISHABLE_STORY_FOUND: "
+"no story cleared the selection thresholds."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:243
+msgid ""
+"This is deliberate (quality over quantity). To see a first result, turn on "
+"quick-start mode or add more sources on the same topic."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:251
+msgid "No stories have been clustered yet."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:251
+msgid ""
+"If news has been collected but there are no stories, the full pipeline — not "
+"just discovery — has not run yet."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:254
+#, php-format
+msgid "%1$d stories, %2$d selected for generation"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:254
+msgid "Stories exist but none were selected → check your thresholds."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:263
+#, php-format
+msgid ""
+"Selection: score ≥%1$d and trust ≥%2$d · at most %3$d stories per run · "
+"content quality gate ≥%4$d"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:265
+#: src/Application/HealthCheckService.php:267
+msgid "Thresholds"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:265
+msgid "Quick-start mode is on: "
+msgstr ""
+
+#: src/Application/HealthCheckService.php:265
+msgid ""
+"Turn it off once you have seen your first drafts and added enough sources."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:273
+#: src/Application/HealthCheckService.php:275
+msgid "Output (drafts)"
+msgstr ""
+
+#: src/Application/HealthCheckService.php:273
+msgid "No content version has been generated yet."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:273
+msgid "Fix the first red or amber item above, then press “Run now”."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:275
+#, php-format
+msgid "%d content versions generated — see the “Draft review” page."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:281
+msgid "No API key entered."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:284
+msgid "The API key is invalid."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:287
+msgid ""
+"The per-job token budget is exhausted; set it to zero (unlimited) or raise "
+"it in the AI settings."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:290
+msgid "Provider rate limit; try again in a few minutes."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:293
+msgid ""
+"A previous run's lock was never released; wait 15 minutes or deactivate and "
+"reactivate the plugin."
+msgstr ""
+
+#: src/Application/HealthCheckService.php:295
+msgid "See the logs filtered by job_id for details."
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:52
+msgid "News"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:63
+msgid ""
+"Use only clearly licensed images, and record the source and licence in the "
+"caption."
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:69
+#, php-format
+msgid "Featured image for: %s"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:87
+#, php-format
+msgid "Conceptual view of %s"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:88
+msgid "Subject in the left third, clear space on the right for a headline."
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:91
+msgid "A close-up of the relevant interface or product"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:92
+msgid "Landscape frame, clean low-noise background, focus on detail."
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:95
+msgid "A contextual shot of the real environment in use"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:96
+msgid "Natural light, no identifiable faces, shallow depth of field."
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:124
+msgid "Faces of real, identifiable people"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:125
+msgid "Logos and trademarks"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:126
+msgid "Text or numbers inside the image"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:127
+msgid "Images without a clear licence or source"
+msgstr ""
+
+#: src/Application/Images/ImagePlanService.php:128
+msgid "Staged scenes that misrepresent the story"
+msgstr ""
+
+#: src/Application/NewsroomSettings.php:140
+msgid "At least one valid time (HH:MM) is required."
+msgstr ""
+
+#: src/Application/PipelineRunner.php:298
+msgid "New content is ready for review"
+msgstr ""
+
+#: src/Application/PipelineRunner.php:301
+#, php-format
+msgid ""
+"Job #%1$d: %2$d drafts ready for review and %3$d stories below the quality "
+"gate — publishing requires human approval (§73). Review page: %4$s"
+msgstr ""
+
+#: src/Application/SourceService.php:53
+msgid "Saving the source failed (duplicate key?). Please try again."
+msgstr ""
+
+#: src/Application/SourceService.php:70
+msgid "Updating the source failed."
+msgstr ""
+
+#: src/Application/SourceService.php:110
+msgid "Source name is required."
+msgstr ""
+
+#: src/Application/SourceService.php:112
+msgid "Source name is limited to 191 characters."
+msgstr ""
+
+#: src/Application/SourceService.php:118
+msgid "Invalid source type."
+msgstr ""
+
+#: src/Application/SourceService.php:120
+msgid "This source type is not supported yet (RSS, Atom and Web only)."
+msgstr ""
+
+#: src/Application/SourceService.php:126
+msgid "A feed URL is required for this source type."
+msgstr ""
+
+#: src/Application/SourceService.php:131
+msgid "The feed URL is invalid or not allowed (SSRF)."
+msgstr ""
+
+#: src/Application/SourceService.php:140
+msgid "The source website URL is invalid or not allowed."
+msgstr ""
+
+#: src/Application/SourceService.php:179
+msgid "Unsupported settings key."
+msgstr ""
+
+#: src/Application/SourceService.php:183
+msgid "Secret keys are not allowed in source settings."
+msgstr ""
+
+#: src/Application/SourceService.php:195
+#, php-format
+msgid "Invalid or unsupported CSS selector in “%s”."
+msgstr ""
+
+#: src/Application/SourceService.php:200
+msgid "The URL pattern (regex) is invalid."
+msgstr ""
+
+#: src/Core/Plugin.php:44
+#, php-format
+msgid "NewsDesk AI requires PHP %s or newer."
+msgstr ""
+
+#: src/Core/Plugin.php:678
+msgid "NewsDesk AI settings"
+msgstr ""
+
+#: src/Core/Plugin.php:697
+msgid "NewsDesk AI: the database update failed."
+msgstr ""
+
+#: src/Domain/NewsCategory.php:83
+msgid "Security"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:84
+msgid "Core release"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:85
+msgid "Gutenberg"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:86
+msgid "Plugins"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:87
+msgid "Templates"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:88
+msgid "eCommerce"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:89
+msgid "Performance"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:90
+msgid "Availability"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:93
+msgid "Hosting"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:94
+msgid "Business"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:95
+msgid "Community"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:96
+msgid "Guide"
+msgstr ""
+
+#: src/Domain/NewsCategory.php:97
+msgid "Other"
+msgstr ""
+
+#: src/Infrastructure/Notification/EmailNotifier.php:36
+msgid "Email"
+msgstr ""
+
+#: src/Infrastructure/Notification/SlackNotifier.php:44
+msgid "Slack"
+msgstr ""
+
+#: src/Infrastructure/Notification/TelegramNotifier.php:49
+msgid "Telegram"
+msgstr ""
+
+#: src/Infrastructure/Notification/WebhookNotifier.php:47
+msgid "Webhook"
+msgstr ""
+
+#: src/Infrastructure/Scheduler/CronScheduler.php:68
+msgid "Every 15 minutes (NewsDesk AI)"
+msgstr ""

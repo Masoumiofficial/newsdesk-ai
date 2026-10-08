@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NewsDesk AI — Documentation</title>
+<style>
+  :root{
+    --ink:#1d2327; --muted:#646970; --line:#e2e4e7; --bg:#ffffff;
+    --accent:#2271b1; --accent-soft:#f0f6fc; --warn:#fcf4e4; --warn-line:#dba617;
+    --bad:#fcf0f1; --bad-line:#d63638; --good:#f0f9f2; --good-line:#00a32a;
+    --code:#f6f7f7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#f6f7f7;color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .shell{display:flex;max-width:1200px;margin:0 auto;background:var(--bg);min-height:100vh;
+    box-shadow:0 0 0 1px var(--line)}
+  nav{width:260px;flex:0 0 260px;border-right:1px solid var(--line);padding:28px 0;
+    position:sticky;top:0;align-self:flex-start;max-height:100vh;overflow:auto}
+  nav .brand{padding:0 24px 18px;border-bottom:1px solid var(--line);margin-bottom:14px}
+  nav .brand b{display:block;font-size:18px}
+  nav .brand span{color:var(--muted);font-size:13px}
+  nav a{display:block;padding:6px 24px;color:var(--ink);text-decoration:none;font-size:14px}
+  nav a:hover{background:var(--accent-soft);color:var(--accent)}
+  nav .grp{padding:14px 24px 4px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  main{flex:1;padding:40px 48px 90px;min-width:0}
+  h1{font-size:32px;margin:0 0 6px;letter-spacing:-.4px}
+  h2{font-size:23px;margin:48px 0 10px;padding-top:14px;border-top:1px solid var(--line)}
+  h3{font-size:17px;margin:28px 0 6px}
+  p,li{max-width:70ch}
+  .lede{font-size:18px;color:var(--muted);margin:0 0 28px}
+  code{background:var(--code);padding:2px 6px;border-radius:4px;font-size:.88em;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  pre{background:var(--code);padding:14px 16px;border-radius:6px;overflow:auto;
+    border:1px solid var(--line);font-size:13.5px}
+  pre code{background:none;padding:0}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--code);font-weight:600}
+  .note,.warn,.bad,.good{border-left:4px solid;padding:12px 16px;border-radius:0 6px 6px 0;margin:18px 0}
+  .note{background:var(--accent-soft);border-color:var(--accent)}
+  .warn{background:var(--warn);border-color:var(--warn-line)}
+  .bad{background:var(--bad);border-color:var(--bad-line)}
+  .good{background:var(--good);border-color:var(--good-line)}
+  .note p:last-child,.warn p:last-child,.bad p:last-child,.good p:last-child{margin-bottom:0}
+  .note p:first-child,.warn p:first-child,.bad p:first-child,.good p:first-child{margin-top:0}
+  footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  a{color:var(--accent)}
+  .pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;color:#fff}
+  @media(max-width:900px){.shell{display:block}nav{width:auto;position:static;max-height:none;border-right:0;border-bottom:1px solid var(--line)}main{padding:28px 20px 60px}}
+</style>
+</head>
+<body>
+<div class="shell">
+<nav>
+  <div class="brand"><b>NewsDesk AI</b><span>Version 1.0.1 — documentation</span></div>
+  <div class="grp">Getting started</div>
+  <a href="#what">What this plugin does</a>
+  <a href="#requirements">Requirements</a>
+  <a href="#install">Installation</a>
+  <a href="#firstrun">First run in 10 minutes</a>
+  <div class="grp">Using it</div>
+  <a href="#sources">Sources &amp; trust tiers</a>
+  <a href="#pipeline">How the pipeline decides</a>
+  <a href="#review">Reviewing a draft</a>
+  <a href="#corrections">Corrections</a>
+  <div class="grp">Configuration</div>
+  <a href="#providers">AI providers &amp; keys</a>
+  <a href="#settings">Settings reference</a>
+  <a href="#seo">SEO integration</a>
+  <a href="#schedule">Scheduling</a>
+  <div class="grp">Reference</div>
+  <a href="#hooks">Hooks &amp; filters</a>
+  <a href="#i18n">Translating</a>
+  <a href="#data">Data &amp; uninstall</a>
+  <a href="#trouble">Troubleshooting</a>
+  <a href="#support">Support</a>
+</nav>
+<main>
+
+<h1>NewsDesk AI</h1>
+<p class="lede">An AI newsroom for WordPress that refuses to publish what it cannot verify.
+Built by <a href="https://etehadwp.com/">EtehadWP</a>.</p>
+
+<h2 id="what">What this plugin does</h2>
+<p>Most AI content plugins exist to produce as much text as possible, as quickly as
+possible. NewsDesk AI is built on the opposite premise: <strong>the expensive mistake in
+publishing is not slow output, it is wrong output.</strong></p>
+<p>It watches the sources you choose, works out what is genuinely new, checks the factual
+claims against independent evidence, audits the finished article against fifteen quality
+axes, and hands you a sourced <strong>draft</strong>. If a story does not clear the bar, it
+tells you why and writes nothing.</p>
+
+<div class="good">
+<p><strong>It never publishes on its own.</strong> Auto-publish is hard-coded off and is not
+exposed as a setting. Every output is <code>post_status = draft</code>, waiting for a human.</p>
+</div>
+
+<h3>What makes it different</h3>
+<ul>
+<li><strong>It can decide not to write.</strong> Relevance and trust gates run <em>before</em> any
+AI cost is incurred. If nothing clears the bar in 24 hours it widens to 7 days; if still
+nothing, it reports <code>NO NEWS</code> rather than inventing a story.</li>
+<li><strong>Every claim is fact-checked</strong> and labelled VERIFIED / PARTIALLY&nbsp;VERIFIED /
+UNVERIFIED / CONTRADICTED / REJECTED, each with a risk level and a mandated action.</li>
+<li><strong>A 15-axis audit can block the draft.</strong> Six axes are blocking: missing title,
+missing body, ungrounded claims, fabricated references, absent sources, leftover
+placeholders. A critical failure means no draft is created at all.</li>
+<li><strong>It knows what you already published</strong> and decides NEW / UPDATE / REWRITE /
+MERGE / CORRECT / REPLACE / NO&nbsp;ARTICLE instead of cannibalising your own rankings.</li>
+<li><strong>Security facts are never guessed.</strong> CVE IDs, CVSS scores and affected
+versions are extracted by deterministic pattern matching, not by a model.</li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+<table>
+<tr><th>WordPress</th><td>6.5 or newer</td></tr>
+<tr><th>PHP</th><td>7.4 or newer (tested through 8.4)</td></tr>
+<tr><th>PHP extensions</th><td><code>simplexml</code>, <code>mbstring</code>, <code>json</code>.
+<code>sodium</code> or <code>openssl</code> strongly recommended — without one, API keys are
+stored unencrypted and the plugin warns you.</td></tr>
+<tr><th>Outbound HTTP</th><td>Required. The plugin fetches feeds and calls AI providers.
+Shared hosts sometimes block this.</td></tr>
+<tr><th>AI provider key</th><td>One of OpenAI, Google Gemini, GapGPT, or any
+OpenAI-compatible endpoint. <strong>Not included</strong> — you supply your own.</td></tr>
+<tr><th>Action Scheduler</th><td>Optional but recommended. Without it jobs fall back to
+single-event WP-Cron, which is slower and depends on site traffic.</td></tr>
+</table>
+
+<h2 id="install">Installation</h2>
+<ol>
+<li>In WordPress go to <strong>Plugins → Add New → Upload Plugin</strong>.</li>
+<li>Choose <code>newsdesk-ai-1.0.1.zip</code> and click <strong>Install Now</strong>.</li>
+<li>Click <strong>Activate</strong>.</li>
+<li>A new <strong>NewsDesk AI</strong> menu appears in the admin sidebar.</li>
+</ol>
+<p>Installing by FTP works too — unzip into <code>wp-content/plugins/</code> and activate.
+Database tables are created on activation and reconciled on every admin page load, so
+automatic, bulk and FTP updates all apply schema changes correctly.</p>
+
+<h2 id="firstrun">First run in 10 minutes</h2>
+<p>The plugin is deliberately conservative, so a brand-new install will usually produce
+nothing on its first run. That is correct behaviour, not a fault. Work through this list.</p>
+
+<h3>1. Add at least three sources on one topic</h3>
+<p><strong>NewsDesk AI → Sources → Add source.</strong> Story scoring weights multi-source
+corroboration heavily. With a single source, almost nothing reaches the selection
+threshold — by design.</p>
+
+<h3>2. Enter an API key</h3>
+<p><strong>Settings → API keys.</strong> Save a key, then press <strong>Test AI connection</strong>
+and confirm it goes green.</p>
+
+<h3>3. Turn on Quick-start mode</h3>
+<p><strong>Settings → Quick-start mode.</strong> This temporarily lowers the selection
+threshold to 35, trust to 20 and the content gate to 70 so you can see a first result.
+Your saved values are left untouched. Turn it off once you have enough sources.</p>
+
+<h3>4. Run it</h3>
+<p><strong>System health → Run now.</strong> This executes the job inside the request, so it
+does not depend on cron. Allow two to five minutes.</p>
+
+<h3>5. Review</h3>
+<p><strong>Draft review.</strong> Each generated article waits for your decision, beside its
+evidence map.</p>
+
+<div class="note">
+<p><strong>If nothing appears:</strong> the <strong>System health</strong> page names the first
+blocker explicitly — no sources, no API key, dead cron, PHP timeout, exhausted token
+budget. Start there rather than guessing.</p>
+</div>
+
+<h2 id="sources">Sources &amp; trust tiers</h2>
+<p>Each source has a <strong>type</strong> and a <strong>trust tier</strong>, and both feed into
+scoring and fact-check weighting.</p>
+
+<table>
+<tr><th>Source type</th><th>Meaning</th></tr>
+<tr><td><code>PRIMARY</code></td><td>The organisation the news is about — vendor blogs, official releases.</td></tr>
+<tr><td><code>TECHNICAL</code></td><td>Developer documentation, changelogs, issue trackers.</td></tr>
+<tr><td><code>MEDIA</code></td><td>News publications reporting on others. The default.</td></tr>
+<tr><td><code>COMMUNITY</code></td><td>Forums, aggregators, social posts.</td></tr>
+<tr><td><code>SECURITY</code></td><td>Advisories and vulnerability databases. Feeds CVE extraction.</td></tr>
+</table>
+
+<table>
+<tr><th>Tier</th><th>Meaning</th><th>Default base trust</th></tr>
+<tr><td>1</td><td>Official / authoritative</td><td>95</td></tr>
+<tr><td>2</td><td>Established publication</td><td>80</td></tr>
+<tr><td>3</td><td>General media (default)</td><td>60</td></tr>
+<tr><td>4</td><td>Unverified / community</td><td>35</td></tr>
+</table>
+
+<p>Leave <strong>Base trust</strong> blank to inherit the tier default; enter a number to
+override it.</p>
+
+<h3>Source formats</h3>
+<p><strong>RSS</strong> and <strong>Atom</strong> take a standard feed URL. <strong>Web</strong> takes
+the URL of a listing page — your home page or a section — and discovers article links
+automatically, parsing each one via JSON-LD, then OpenGraph, then heuristics. If a site
+defeats automatic detection, fill in the per-source CSS selectors.</p>
+
+<div class="note">
+<p>Every fetch is SSRF-hardened: redirects are revalidated hop by hop, private and
+link-local ranges are refused, decimal and hexadecimal IP obfuscation is detected, and
+responses are capped at 2&nbsp;MB.</p>
+</div>
+
+<h2 id="pipeline">How the pipeline decides</h2>
+<p>Discovery → normalization → deduplication → clustering → scoring → editorial selection →
+research → evidence → fact-check → claim risk → drafting → SEO → linking → quality gate →
+15-axis audit → image plan → <strong>draft</strong>.</p>
+
+<h3>Scoring</h3>
+<p>Stories are scored on freshness, source trust, impact, relevance, search value,
+actionability and uniqueness, plus a search-visibility axis. Only stories above your
+configured gate proceed.</p>
+
+<h3>The news window ladder</h3>
+<p>The first pass considers the last 24&nbsp;hours. If nothing qualifies, it widens to
+7&nbsp;days. If still nothing, the outcome is <code>NO NEWS</code> and no content is created.
+The ladder only descends on zero items — it never widens just to find something weaker.</p>
+
+<h3>Cannibalization</h3>
+<p>Before writing, each story is compared against your published posts.</p>
+<table>
+<tr><th>Decision</th><th>What happens</th></tr>
+<tr><td><code>NEW</code></td><td>A fresh draft.</td></tr>
+<tr><td><code>UPDATE</code> / <code>REWRITE</code> / <code>MERGE</code> / <code>REPLACE</code></td>
+<td>A revision draft linked to the existing post. Nothing live is touched.</td></tr>
+<tr><td><code>CORRECT</code></td><td>A correction is staged against the published article.</td></tr>
+<tr><td><code>NO ARTICLE</code></td><td>Nothing is written. Writing again would compete with you.</td></tr>
+</table>
+
+<h2 id="review">Reviewing a draft</h2>
+<p><strong>Draft review</strong> shows the article beside its evidence, claim by claim.</p>
+<ul>
+<li><strong>Status</strong> — the fact-check verdict for that claim.</li>
+<li><strong>Risk / action</strong> — how damaging an error would be, and what the system
+decided to do about it: keep, attribute, mark uncertain, research further, remove.</li>
+<li><strong>In body</strong> — whether the claim actually made it into the text.</li>
+<li><strong>Security intelligence</strong> — on security stories: severity, CVSS, CVE links,
+affected and fixed versions, exploitation status, vendor advisory.</li>
+</ul>
+<p>Approving marks the version publishable. <strong>The final publish always happens in the
+WordPress editor, by you.</strong></p>
+
+<h2 id="corrections">Corrections</h2>
+<p>When a new source contradicts something you already published, NewsDesk AI stages a
+correction and appends a dated, marked correction notice to the live post. This is the
+only operation in the whole plugin that modifies published content, and it adds rather
+than rewrites — the record of what you originally said stays intact.</p>
+<p>Corrections are refused, with a named reason, when there is no target article, the
+target is not published, or there is no contradiction detail to cite.</p>
+
+<h2 id="providers">AI providers &amp; keys</h2>
+<p>Supported: <strong>OpenAI</strong>, <strong>Google Gemini</strong>, <strong>GapGPT</strong>, and any
+OpenAI-compatible endpoint. Configure an ordered list; if the first provider fails with a
+<em>retryable</em> error the next is tried. Authentication and budget errors never trigger a
+fallback — retrying those just burns money.</p>
+
+<div class="warn">
+<p><strong>Keys are never displayed, logged or exported.</strong> They are encrypted at rest
+with a key derived from your WordPress salts, and eleven redaction patterns are applied to
+all logging. Leave the field blank to keep the stored value; tick <em>Delete key</em> to clear it.</p>
+</div>
+
+<p>Discovery, deduplication, scoring and editorial selection all run <strong>without</strong> AI.
+Only research and drafting call a provider — so you are not paying for stories that never
+clear the gate.</p>
+
+<h2 id="settings">Settings reference</h2>
+<table>
+<tr><th>Setting</th><th>Default</th><th>What it does</th></tr>
+<tr><td>Stage 1 window</td><td>24 hours</td><td>The first window considered.</td></tr>
+<tr><td>Stage 2 window</td><td>7 days</td><td>Widened to only if stage 1 is empty.</td></tr>
+<tr><td>Max stories per window</td><td>3</td><td>Hard cap per run.</td></tr>
+<tr><td>Selection quality gate</td><td>60</td><td>Minimum news score to be selected.</td></tr>
+<tr><td>Minimum source trust</td><td>40</td><td>Low trust cannot be selected, however good the SEO.</td></tr>
+<tr><td>Content quality gate</td><td>90</td><td>Below this the draft is revised, then marked NEEDS_REVIEW.</td></tr>
+<tr><td>Max AI revisions</td><td>2</td><td>Revision loops before giving up.</td></tr>
+<tr><td>Image generation</td><td>Off</td><td>Off = plan only. See below.</td></tr>
+<tr><td>Token budget per job</td><td>0</td><td>0 = unlimited. Checked before every network call.</td></tr>
+<tr><td>Delete all data on uninstall</td><td>Off</td><td>Off = your data is kept.</td></tr>
+</table>
+
+<h3>Images</h3>
+<p>By default the plugin produces an <strong>image plan</strong>: aspect ratio, minimum width,
+alt text, caption, three visual concepts, stock search terms, things to avoid, and a
+licensing note. The editor chooses the actual image. Generation is opt-in, and an image
+failure never fails the article.</p>
+
+<h2 id="seo">SEO integration</h2>
+<p>NewsDesk AI always writes its own SEO meta. It additionally detects <strong>Yoast SEO</strong>
+and <strong>Rank Math</strong> and populates their fields through their documented meta keys,
+with no-clobber protection: a value you set by hand is never overwritten.</p>
+<div class="note">
+<p>All in One SEO 4.x stores per-post data in its own custom tables rather than post meta,
+with no documented write contract. Rather than guess at another plugin's internals, the
+AIOSEO adapter stays inactive. Your own meta is still written and remains usable.</p>
+</div>
+
+<h2 id="schedule">Scheduling</h2>
+<p>A 15-minute WP-Cron tick triggers the pipeline at your configured slots (default
+00:00, 04:00, 08:00, 12:00, 16:00, 20:00, in the site time zone). The tick is only a
+trigger — the heavy work runs in the background through Action Scheduler.</p>
+<p>WP-Cron on a low-traffic site is unreliable. For production, add a real system cron:</p>
+<pre><code>*/5 * * * * wget -q -O /dev/null https://example.com/wp-cron.php?doing_wp_cron</code></pre>
+<p>and set <code>define( 'DISABLE_WP_CRON', true );</code> in <code>wp-config.php</code>.</p>
+
+<h2 id="hooks">Hooks &amp; filters</h2>
+<table>
+<tr><th>Hook</th><th>Type</th><th>Purpose</th></tr>
+<tr><td><code>newsdesk_newsroom_job_finished</code></td><td>action</td><td>Fires when a pipeline job completes. Receives the job id and outcome.</td></tr>
+<tr><td><code>newsdesk_newsroom_source_test</code></td><td>action</td><td>Fires when a source connection is tested.</td></tr>
+<tr><td><code>newsdesk_security_markers</code></td><td>filter</td><td>Phrases that mark an item as security-related. Ships English and Persian.</td></tr>
+<tr><td><code>newsdesk_claim_risk_markers</code></td><td>filter</td><td>Risk markers per level. Receives the level as a second argument.</td></tr>
+</table>
+
+<p>Publishing in another language? Extend the keyword lists so risk detection works:</p>
+<pre><code>add_filter( 'newsdesk_security_markers', function ( $markers ) {
+    $markers[] = 'sicherheitslücke';   // German
+    $markers[] = 'schwachstelle';
+    return $markers;
+} );
+
+add_filter( 'newsdesk_claim_risk_markers', function ( $markers, $level ) {
+    if ( 'critical' === $level ) {
+        $markers[] = 'sicherheitsupdate';
+    }
+    return $markers;
+}, 10, 2 );</code></pre>
+
+<h2 id="i18n">Translating</h2>
+<p>The interface is English and fully internationalised; a Persian translation ships in
+<code>languages/</code>. To add a language, load <code>languages/newsdesk-ai.pot</code> in Poedit,
+translate, and save as <code>newsdesk-ai-{locale}.mo</code> in the same folder — for example
+<code>newsdesk-ai-de_DE.mo</code>.</p>
+<p>Right-to-left locales are handled automatically through the WordPress <code>rtl</code> body
+class. The <strong>language of generated articles</strong> is a separate setting from the
+interface language — set it under <strong>Settings → Content</strong>.</p>
+
+<h2 id="data">Data &amp; uninstall</h2>
+<p>The plugin creates 17 tables prefixed <code>{wp_prefix}newsdesk_</code>, plus a small number
+of options.</p>
+<div class="good">
+<p><strong>Uninstalling keeps everything by default.</strong> Data is removed only if you
+explicitly enable <em>Delete all data on uninstall</em> in Settings <em>before</em> deleting the
+plugin. Deactivating never deletes anything.</p>
+</div>
+<p>Retention is configurable per record type; <code>0</code> means keep forever, and records
+attached to a story are never pruned.</p>
+
+<h2 id="trouble">Troubleshooting</h2>
+
+<h3>Nothing is generated</h3>
+<p>Expected on a new install. Check <strong>System health</strong> — it names the first blocker.
+The usual causes are too few sources, no API key, or dead cron.</p>
+
+<h3>"Stories exist but none were selected"</h3>
+<p>Your thresholds are above what the sources can reach. Lower the selection gate, or add
+more sources covering the same topic so corroboration raises the score.</p>
+
+<h3>Every run ends NO_PUBLISHABLE_STORY_FOUND</h3>
+<p>Also normal on quiet days. The plugin is allowed to produce nothing. If it never
+produces anything, look at <code>STORY_NOT_ELIGIBLE</code> in the logs.</p>
+
+<h3>Jobs stay queued and never start</h3>
+<p>WP-Cron is not firing. Install Action Scheduler, add a real system cron, or use
+<strong>Run now</strong> while you sort it out.</p>
+
+<h3>Job stuck mid-phase for over an hour</h3>
+<p>PHP almost certainly timed out. Raise <code>max_execution_time</code> to at least 300, and
+retry from the dashboard. A full run normally takes two to five minutes.</p>
+
+<h3>SCHEMA_FAIL / SCHEMA_RETRY in the logs</h3>
+<p>The model's JSON did not match the required shape. The Details column names the exact
+field. Usually the model is too weak or lacks JSON mode — switch to a stronger one.</p>
+
+<h3>Feeds work in a browser but fail here</h3>
+<p>Your host has probably blocked outbound HTTP, or the feed resolves to a private IP and
+the SSRF guard refused it.</p>
+
+<h2 id="support">Support</h2>
+<p>Documentation and updates: <a href="https://etehadwp.com/newsdesk-ai/">etehadwp.com/newsdesk-ai</a><br>
+Support requests: <a href="https://etehadwp.com/support/">etehadwp.com/support</a></p>
+<p>When reporting a problem, include your WordPress and PHP versions, the job ID, and the
+relevant log rows (filter the Logs page by <code>job_id</code>). Keys are redacted in logs, so
+it is safe to paste them.</p>
+
+<footer>
+<p><strong>NewsDesk AI 1.0.1</strong> — built by <a href="https://etehadwp.com/">EtehadWP</a>
+(اتحاد وردپرس). Licensed GPL-2.0-or-later.</p>
+</footer>
+
+</main>
+</div>
+</body>
+</html>
